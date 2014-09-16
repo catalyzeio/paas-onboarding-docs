@@ -1,5 +1,9 @@
 # Our mission
 
+> When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it.
+
+>  — W. Clement Stone
+
 
 ###Maximize Security
 Security and compliance are at the core of what we provide. So everything that we do has to have those two goals in mind. Our customers manage sensitive data. It is our responsibility to ensure the highest level of security possible while mitigating whatever possible attack surfaces that we are aware of. That also implies that we continue to monitor, test and secure our PaaS to ensure that we continue to provide the highest level of security possible.
