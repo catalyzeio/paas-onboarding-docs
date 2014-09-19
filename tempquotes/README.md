@@ -31,6 +31,16 @@
 
 > — Bugs Bunny
 
+> The quality of the connections is the key to quality per se.
+
+> — Charles Eames
+
+
+> "As you wish." 
+
+> — Westley, The Princess Bride
+
+Read more at http://www.brainyquote.com/quotes/quotes/c/charleseam403332.html#Z00QSXHOZ0283Ddu.99
 
 Info we need:
 1. SSH public key for each user that requires git push access.

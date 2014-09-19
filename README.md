@@ -1,8 +1,8 @@
 # The Catalyze Platform as a Service (PaaS)
 
->   Repeat after me - simple, secure and compliant.
+> Privacy is not something that I'm merely entitled to, it's an absolute prerequisite.
 
->   — Anonymous
+> — Marlon Brando
 
 The biggest [value][2] that a platform as a service provides is to simplify the developers life to allow them to focus on their application rather than the nuances and complexities of deployment and server configurations. Add to that all the additional requirements around complying with regulations, mandates and certifications (HIPAA, HITRUST etc.) in healthcare and the developer's challenges are multiplied tenfold. We want to make it as easy for a developer to build a compliant healthcare application on Catalyze as it is to deploy an app on [Heroku][1]. With this goal in mind, we set out to design and build out the Catalyze Platform as a Service.
 

@@ -1,5 +1,9 @@
 # Define your environment
 
+> "So tell me what you want, what you really really want.."
+
+> — The Spice Girls
+
 The next step is defining what your environment needs to look like. This is where you go in and specify the number and types of containers you need.
 
 Let's take the case of a simple application which uses Ruby as the application (code) layer and Postgres as the database. As a quick side note, everything inside the Catalyze PaaS is called **"service"**.
