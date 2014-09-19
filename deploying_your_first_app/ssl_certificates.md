@@ -1,3 +1,1 @@
-# SSL Certificates
-
-> —
+# SSL certificates

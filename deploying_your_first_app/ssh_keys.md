@@ -52,12 +52,15 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
 
-###Step 3: Copy the key and paste it into the dashboard.
-
+###Step 3: Copy the key
 Type in the following code which will copy the key to your clipboard so that you can directy (Command+v) paste it into the appropriate field in the dashboard.
 
 ```
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
+###Step 4: Paste it into the dashboard
+
+Paste the key that you just copied into the dashboard as shown below.
+![Paste the SSH key here](../pics/ssh.key.jpg)
 
