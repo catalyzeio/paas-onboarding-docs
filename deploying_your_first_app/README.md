@@ -5,11 +5,8 @@
 > — Henry Ford
 
 
+###The General Flow
 
-- services
-- configurations
+![Deployment steps](../pics/steps.to.deploy.png)
 
-
-
-###General flow
-
+The overall flow is outlined in the dashboard wizard and is explained in detail in the following sections of this document.
