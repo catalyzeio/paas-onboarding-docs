@@ -40,6 +40,13 @@
 
 > — Westley, The Princess Bride
 
+> Coding is long. Design is short. Paper is cheap.
+
+> — Anonymous
+
+
+
+
 Read more at http://www.brainyquote.com/quotes/quotes/c/charleseam403332.html#Z00QSXHOZ0283Ddu.99
 
 Info we need:

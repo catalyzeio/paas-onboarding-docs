@@ -31,7 +31,7 @@ Note the **"High Availability"** checkbox just below your selections. HA configu
 
 ###Step 2: Define your database service
 Similar to the above steps, you would now do the following to set up your database container.
-- **Name of your service**: Since you are now defining a database service, you could potentially name it as "db01" or "my_awesome_db01"
+- **Name of your service**: Since you are now defining a database service, you could potentially name it as `db01` or `my_awesome_db01`
 - **Service Type**: Since this is a database service, you would pick "Database" from the Service Type dropdown.
 - **Service Image**: From this dropdown list, you would select the database that you would like to use. The listing shows the current set of databases we currently support. A full listing of databases we support is available [here-FIXME](FIXME). Please let us know from the links provided there if you'd like us to support additional ones. In the example, we're working through, you would now select PostgreSQL from the dropdown listing.
 - **Service Size**: Sizing essentially corresponds to the amount of RAM you wish to dedicate to this specific service. So, for example, if you know that your database has to support a pretty high volume of users, you would select 4GB or higher from the dropdown. Or you would select a smaller number if that was appropriate. Let's say, we select 4GB in our example.
