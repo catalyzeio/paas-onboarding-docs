@@ -14,7 +14,7 @@ Services can be of type
 
 ### Step 1: Define your code service
 This is the application container i.e. where the logic of your application resides. A full listing of code services we support is available [here-FIXME](FIXME). Please let us know from the links provided there if you'd like us to support additional ones. In the data entry fields provided, you would enter the following:
-- **Name of your service**: Say App One or App01
+- **Name of your service**: For example, App01
 - **Service Type**: Here you would select "Code" from the Service Type dropdown since this the application container.
 - **Service Size**: Sizing essentially corresponds to the amount of RAM you wish to dedicate to this specific service. So, for example, if you know that your app has a pretty high volume of users, you would select 4GB or higher from the dropdown. Or you would select a smaller number if that was appropriate. Let's say, we select 2GB in our example.
 At the end of this set of selections, the screen would look something like this:
