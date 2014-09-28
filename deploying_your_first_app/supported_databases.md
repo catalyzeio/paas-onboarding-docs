@@ -38,7 +38,7 @@ Percona MySQL HA is configured as follows:
 mongoDB cluster deployments have a bunch of challenges associated with them especially when deploying in an automated fashion primarily due to the way members of a cluster need to announce themselves and the need to have their IPs and hostnames known in advance. Additionally, mongoDB requires either:
 - at least 3 containers / nodes to be available for a cluster to work appropriately and avoid the "split-brain" problem
 - or alternatively, employ an "arbiter" node that can manage the assignment of master or slave. This is the option we've chosen to go with.
--Backup??
+- Backup??
 
 HA or single node deployment options can be selected at definition / deploy time via the dashboard.
 

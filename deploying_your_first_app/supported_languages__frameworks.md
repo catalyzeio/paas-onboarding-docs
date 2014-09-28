@@ -1,10 +1,10 @@
 # Supported languages / frameworks
 
->   I did a movie in Esperanto.
+> I did a movie in Esperanto.
 
 > — William Shatner
 
-The general rule of thumb to follow is that if it is supported by Heroku, it is supportable by Catalyze. The listing of langages / frameworks supported by Heroku is listed [here](https://devcenter.heroku.com/categories/language-support). In summary, here is the listing:
+The general rule of thumb to follow is that if it is supported by Heroku, it is supportable by Catalyze. The listing of languages / frameworks supported by Heroku is listed [here](https://devcenter.heroku.com/categories/language-support). In summary, here is the listing:
 - Ruby
 - Java
 - Python

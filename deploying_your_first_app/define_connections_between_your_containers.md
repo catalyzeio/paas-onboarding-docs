@@ -10,7 +10,6 @@ The convention we follow is data centric i.e. the store or source of data (e.g. 
 
 ![Consumer Provider connections 1](../pics/connections.1.png).
 
-
 Click the Add Connection button and you will see the graphical view of the connection shown on the right and listed below as well.
 
 ![Consumer Provider connections 2](../pics/connections.2.png).
