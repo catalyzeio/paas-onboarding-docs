@@ -11,6 +11,7 @@
    * [Supported Utilities / Add-ons](deploying_your_first_app/supported_add-ons.md)
 * [Deploying your first app](deploying_your_first_app/README.md)
    * [Pre-requisites](deploying_your_first_app/pre-requisites.md)
+   * [Account Registration](deploying_your_first_app/account_registration.md)
    * [Define Services](deploying_your_first_app/define_services.md)
        * [Environment Name](deploying_your_first_app/environment_name.md)
        * [Define your environment](deploying_your_first_app/define_your_environment.md)
@@ -27,6 +28,6 @@
    * [Accessing the dashboard](accessing_your_environment/accessing_the_dashboard.md)
    * [Accessing your logging server](accessing_your_environment/accessing_your_logging_enviroment.md)
    * [Accessing monitoring](accessing_your_environment/accessing_monitoring.md)
-* [HIPAA / HISTRUST compliance Features](hipaa__histrust_compliance_features)
+* [HIPAA / HISTRUST compliance Features](hipaa__histrust_compliance_features.md)
 * [temp.quotes](tempquotes/README.md)
 
