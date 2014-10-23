@@ -1,6 +1,5 @@
 # Review your settings
 
-
 > Measure twice, cut once
 
 > — A very smart carpenter

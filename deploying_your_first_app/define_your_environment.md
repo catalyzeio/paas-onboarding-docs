@@ -7,6 +7,7 @@
 The next step is defining what your environment needs to look like. This is where you go in and specify the number and types of containers you need.
 
 Let's take the case of a simple application which uses Ruby as the application (code) layer and Postgres as the database. As a quick side note, everything inside the Catalyze PaaS is called **"service"**.
+
 Services can be of type
 - **code** i.e. the programming language of your preference *viz: Ruby, Java, Python...*. This is the application container i.e. where the logic of your application resides.
 - **database** i.e. the database of your choice *viz: mongodb, MySQL, and PostgresSQL*.
@@ -24,12 +25,9 @@ At the end of this set of selections, the screen would look something like this:
 - **Add Service**: Click the Add Service button. You must click this to add it to the list. Once you do that, you will now see the service that you have just defined show up in the listing of services just above as shown below.
 ![Service Listing One](../pics/8.service.listing.png)
 
-
-
 Note the **"High Availability"** checkbox just below your selections. HA configurations, in the case of the code service type, essentially mean that we will automatically create two identical containers of type code (based on your selections so in the case of our example, if we'd selected that option, the Catalyze PaaS would automatically provision two 2GB containers and wire them up to a Load Balancer. This would ensure that your app will be reliably utilized with a minimum of down-time i.e. even if one container / app node fails for some reason, the Load Balancer would automatically remove that connection and route all traffic to the other node. See [here-FIXME](FIXME) to read more about HA configurations.
 
-
-###Step 2: Define your database service
+### Step 2: Define your database service
 Similar to the above steps, you would now do the following to set up your database container.
 - **Name of your service**: Since you are now defining a database service, you could potentially name it as `db01` or `my_awesome_db01`
 - **Service Type**: Since this is a database service, you would pick "Database" from the Service Type dropdown.
