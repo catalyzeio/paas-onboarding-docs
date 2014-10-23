@@ -9,6 +9,7 @@ OK, we're almost there. The last thing remaining is defining the list of environ
 VARIABLE_NAME=WHATEVER_the_VAlU3
 ```
 
+
 Example of environment variables include:
 - `ENVIRONMENT_NAME` e.g. `ENVIRONMENT_NAME=development`
 - `S3_KEY` e.g. `S3_KEY=8N029N81`
