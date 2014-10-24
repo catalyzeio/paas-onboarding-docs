@@ -21,24 +21,26 @@ Support is planned for the following shortly (again to be prioritized based on c
 
 The currently supported databases are also available in HA mode which is described more below.
 
-#### Postgres HA FIXME
+#### Postgres HA (in process)
 Postgres HA is configured as follows:
 - A pair of postgres containers deployed as master and slave respectively
-- Streaming replication is enabled between the master and slave
-- Backup is enabled using [WAL-E](https://github.com/wal-e/wal-e)
+- Streaming replication is enabled between the master and slave using [WAL-E](https://github.com/wal-e/wal-e)
 
+More details will be forthcoming shortly.
 
-#### MySQL (Percona) HA FIXME
+#### MySQL (Percona) HA (in process)
 Percona MySQL HA is configured as follows:
 - A pair of Percona MySQL containers deployed as master and slave respectively
-- ???
-- ???
 
-#### mongoDB HA FIXME
+More details will be forthcoming shortly.
+
+#### MongoDB HA (in process)
 mongoDB cluster deployments have a bunch of challenges associated with them especially when deploying in an automated fashion primarily due to the way members of a cluster need to announce themselves and the need to have their IPs and hostnames known in advance. Additionally, mongoDB requires either:
 - at least 3 containers / nodes to be available for a cluster to work appropriately and avoid the "split-brain" problem
 - or alternatively, employ an "arbiter" node that can manage the assignment of master or slave. This is the option we've chosen to go with.
-- Backup??
+
+More details will be forthcoming shortly.
+
 
 HA or single node deployment options can be selected at definition / deploy time via the dashboard.
 

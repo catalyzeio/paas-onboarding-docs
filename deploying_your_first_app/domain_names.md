@@ -27,17 +27,17 @@ To deploy and secure your apps on Catalyze, we need the following pieces of info
 
 - **URL / Domain name of the app**: As described above, you would use `app01.example.com` if you only intend to deploy the one app. If you intend to deploy several (dev, prod, qa etc.), you might choose to go with `*.example.com`
 
-Quick note: please remember to click the blue (+) button to open the textbox to enter the information. Please also remember to click the blue (+) button *again* after entering the information.
+Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
-- **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. And then click the blue (+) button again to close the box.
+- **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. 
 ![Adding SSL key](../pics/20.add.ssl.key.png)
 
 **SSL PEM**: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue **+** below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available [here](https://www.digicert.com/ssl-support/pem-ssl-creation.htm). Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available [here](http://how2ssl.com/articles/working_with_pem_files/). Since various providers give this information to you differently. We'd recommend opening up the PEM file and copying and pasting the individual sections *including* the ``` ---- BEGIN ``` and ```END ----``` portions.
 
-- **SSL Primary**: Click the blue (+) button and paste in the primary cert as shown below. Remember to include the ``` ---- BEGIN ``` and ```END ----``` portions. And remember to close it again after entering the info.
+- **SSL Primary**: Click the blue (+) button and paste in the primary cert as shown below. Remember to include the ``` ---- BEGIN ``` and ```END ----``` portions. 
 ![Adding Primary Cert](../pics/21.add.primary.cert.png)
 - **Intermediary**: This is optional and often depends on the certificate provider. We haven't provided you with a screenshot of this but if you have this information, please paste it in as well.
-- **Rootca**: Again, click the blue (+), paste the cert including the ``` ---- BEGIN ``` and ```END ----``` portions. And remember to close it again after entering the info.
+- **Rootca**: Again, click the blue (+), paste the cert including the ``` ---- BEGIN ``` and ```END ----``` portions. 
 ![Adding Root CA](../pics/22.add.root.ca.png)
 
 After adding all these pieces of information, your screen should look something like this. Note that the Intermediary box has an *unlocked* icon on it as no information was entered there.
