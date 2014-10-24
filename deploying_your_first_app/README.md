@@ -11,3 +11,9 @@
 
 The overall flow is outlined in the dashboard wizard and is explained in detail in the following sections of this document.
 
+++++++++++++++++++++++++
+
+Both services and review are highlighted in this screenshot.
+
+++++++++++++++++++++++++
+

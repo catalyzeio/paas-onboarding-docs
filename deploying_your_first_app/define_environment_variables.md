@@ -21,7 +21,7 @@ and so on. More details can be got from [here](https://devcenter.heroku.com/arti
 
 **Note that these environment varibles are services specific**. So you will need to add variables specific to each app. In this example, we only have one app. If you have multiple apps, you will need to click on the individual app tabs and enter the variables there separately.
 
-You will note that the **app01** service has be pre-selected so that all the variables that you enter first correspond to app01. Put the ```VARIABLE_NAME``` in one box and the value ```WHATEVER_the_AlU3``` in the corresponding box next to it. 
+You will note that the **app01** service has be pre-selected so that all the variables that you enter first correspond to app01. Put the ```VARIABLE_NAME``` in one box and the value ```WHATEVER_the_AlU3``` in the corresponding box next to it.
 
 ![Enter ENV Variables](../pics/28.add.env.var.png)
 

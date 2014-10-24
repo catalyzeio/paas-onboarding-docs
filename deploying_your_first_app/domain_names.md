@@ -12,22 +12,34 @@ Because of the unique nature of SSL validation, provisioning SSL for your applic
 - Upload the cert to Catalyze
 - Update your DNS settings to reference the new SSL Endpoint URL
 
-Additional details and steps are available  [here](https://devcenter.heroku.com/articles/ssl-endpoint). [This Stack Overflow answer](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file) might also provide some additional context around some of the terms used in this section. 
+Additional details and steps are available  [here](https://devcenter.heroku.com/articles/ssl-endpoint). [This Stack Overflow answer](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file) might also provide some additional context around some of the terms used in this section.
 
 
 A couple of points to pay attention to when you are purchasing the certs:
-- While generating the CSR, the Common Name field must match the secure domain **exactly**. If you buy a certificate for `example.com`, it won't match or secure `www.example.com`. 
+- While generating the CSR, the Common Name field must match the secure domain **exactly**. If you buy a certificate for `example.com`, it won't match or secure `www.example.com`.
 - So, if you want to deploy:
   - A single sub-domain such as `app01.example.com`, then buy a cert that matches that exactly
   - Multiple apps on different subdomains i.e. if you intend to deploy mutiple apps `app01.example.com` and `app02.example.com`, then buy the wildcard cert i.e. speify the URL during purchase as `*.example.com`
 
-To deploy and secure your apps on Catalyze, we need the following pieces of information that need to be pasted into the appropriate areas in the dashboard screenshow shown below.
+To deploy and secure your apps on Catalyze, we need the following pieces of information that need to be pasted into the appropriate areas in the dashboard screenshot shown below.
+
+++++++++++++++++++++++++
+
+"screenshow" to "screenshot"
+
+++++++++++++++++++++++++
 
 ![Certs and domains](../pics/18.domains.certs.png)
 
 - **URL / Domain name of the app**: As described above, you would use `app01.example.com` if you only intend to deploy the one app. If you intend to deploy several (dev, prod, qa etc.), you might choose to go with `*.example.com`
 
-Quick note: please remember to click the blue (+) button to open the textbox to enter the information. Please also remember to click the blue (+) button *again* after entering the information. 
+Quick note: please remember to click the blue (+) button to open the textbox to enter the information. Please also remember to click the blue (+) button *again* after entering the information.
+
+++++++++++++++++++++++++
+
+Plus button turns to minus now
+
+++++++++++++++++++++++++
 
 - **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. And then click the blue (+) button again to close the box.
 ![Adding SSL key](../pics/20.add.ssl.key.png)

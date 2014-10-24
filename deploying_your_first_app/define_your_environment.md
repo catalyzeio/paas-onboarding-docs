@@ -6,9 +6,28 @@
 
 The next step is defining what your environment needs to look like. This is where you go in and specify the number and types of containers you need.
 
+++++++++++++++++++++++++
+
+I would word as such:
+
+"The next step is to define your environment services (note we have not changed views yet). This is where you specify the number and types of containers you need."
+
+++++++++++++++++++++++++
+
 Let's take the case of a simple application which uses Ruby as the application (code) layer and Postgres as the database. As a quick side note, everything inside the Catalyze PaaS is called **"service"**.
 
-Services can be of type
+
+++++++++++++++++++++++++
+
+I would word as such:
+
+"Let's take the case of a simple application which uses Ruby as the application (code) layer and Postgres as the database. *As a quick reminder, every environment component inside the Catalyze Dashboard is called a **service**."*
+
+++++++++++++++++++++++++
+
+
+
+Services can be of type:
 - **code** i.e. the programming language of your preference *viz: Ruby, Java, Python...*. This is the application container i.e. where the logic of your application resides.
 - **database** i.e. the database of your choice *viz: mongodb, MySQL, and PostgresSQL*.
 - **add-on** i.e. services that perform "ancilliary" functions in your app *viz: memcache, redis or RabbitMQ*.
@@ -41,9 +60,9 @@ At the end of this set of selections, the screen would look something like this:
 Note that the HA checkbox is available for databases as well. This is a feature, we're really proud of as we have configured PostgreSQL, MySQL and mongoDB in HA clusters with automatic replication. This specific feature will be expanded upon more in an upcoming blog post.
 
 ###Step 3: Define your cache service (optional)
-If your environment calls for a cache service like Memcached or Redis, then select as above. Making some basic selections, your screen will look something like this. 
+If your environment calls for a cache service like Memcached or Redis, then select as above. Making some basic selections, your screen will look something like this.
 
-![Cache selection](../pics/11.cache.selections.png). 
+![Cache selection](../pics/11.cache.selections.png).
 
 Click on the Add Service button and you should see a listing of services as shown below. Note that HA is **NOT** available in cache selections.
 
@@ -54,3 +73,11 @@ After you're done defining your environment, click on "Continue to next step". T
 If you had selected HA in the code and database services, then your service listing would look something like this.
 
 ![Service Listing HA](../pics/15.ha.config.png)
+
+
+++++++++++++++++++++++++
+
+Just as a side note, these screenshots are outdated
+
+++++++++++++++++++++++++
+

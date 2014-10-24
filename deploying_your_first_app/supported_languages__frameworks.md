@@ -11,6 +11,13 @@ The general rule of thumb to follow is that if it is supported by Heroku, it is 
 - Node.js
 - PHP
 
+++++++++++++++++++++++++
+
+I would word this as: "If it runs on linux it runs on Catalyze. We utilize Heroku's open-source build packs. To read more about those visit ..."
+
+++++++++++++++++++++++++
+
+
 The associated buildpacks for the above are derived from these repos:
 
 - Ruby: https://github.com/heroku/heroku-buildpack-ruby.git

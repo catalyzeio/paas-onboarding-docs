@@ -9,7 +9,22 @@ The biggest [value][2] that a platform as a service provides is to simplify the 
 [1]: <http://www.heroku.com>
 [2]: <http://www.quora.com/In-lay-man-terms-what-is-the-value-that-Heroku-brings-to-the-user-I-presume-that-anyone-can-install-and-host-Ruby-on-any-servers-Then-what-makes-Heroku-so-special>
 
+++++++++++++++++++++++++
+
+RYAN: Using Heroku so many times seems odd to me. Instead of user Heroku, couldn't we say:
+
+"We want to make it as easy for a developer to build a compliant healthcare application on Catalyze as it is to deploy an app with a simple command" or something to that effect.
+
+++++++++++++++++++++++++
+
+
 #### Catalyze makes it easy to deploy, secure and scale apps in the cloud. Catalyze gets out of the way—allowing you to build things your way, with the tools you love—with the assurance that your hosting environment will be HIPAA compliant and HITRUST certified.
+
+++++++++++++++++++++++++
+
+Maybe link to HITRUST here
+
+++++++++++++++++++++++++
 
 The Catalyze Platform-as-a-Service (PaaS) is built on top of existing IaaS vendors such as Amazon Web Services and Rackspace. It manages
 

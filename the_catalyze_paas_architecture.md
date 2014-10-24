@@ -18,6 +18,12 @@ The dashboard is where you login and access your account, view the status of the
 
 Details of the screens and activity to be performed within each is detailed under Section 2 - Deploying your first app.
 
+++++++++++++++++++++++++
+
+Should we say this is where you create your environment? Based on the way the docs currently read I would assume I can create and deploy my app via CLI.
+
+++++++++++++++++++++++++
+
 ### Customer Pods
 A collection of hosts is called a POD. We create collection of Pods which are meant to host our customer's applications, databases and other aspects of their environment. These Pods are IaaS-agnostic i.e. they can be deployed in AWS and/or Rackspace. More IaaS providers are in the works. The choice of IaaS providers is essentially dictated by customer demand and the willingness of the provider to sign a BAA. Customer Pods can be collections of bare metal hosts or VMs.
 
@@ -26,6 +32,12 @@ Customer Pods are where your applications and databases are deployed as Docker c
 Connectivity between the various containers is SSL enabled and configured such that containers not belonging to you have no visibility to your containers (and vice versa). This is enabled by a proprietary mechanism which we intend to continually invest in and potentially open source soon.
 
 Directions on what needs to happen is passed to the customer pods via the Pod API.
+
+++++++++++++++++++++++++
+
+Maybe define the word environments in the section, and use that instead of applications and databases. Not sure.
+
+++++++++++++++++++++++++
 
 ### Management Pods
 A single Management Pod is deployed on each IaaS provider. In some cases, because of restrictions placed by the IaaS provider, more than one management pod could be deployed to manage multiple customer pods on the same IaaS provider. The management pod is responsible for deployment of the containers and passing the configurations to enable the customer specific containers to talk to each other securely.

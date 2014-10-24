@@ -15,19 +15,54 @@ Similar to [Heroku](https://devcenter.heroku.com/articles/architecting-apps#on-h
 
 *Source: [Heroku Development Center](http://devcenter.heroku.com)*
 
-The two key architectural change that needs to be put into place for any application to work on Catalyze are:
+++++++++++++++++++++++++
+
+I'd recommend removing Heroku. Keeping the source is fine.
+
+++++++++++++++++++++++++
+
+The two key architectural changes that need to be put into place for any application to work on Catalyze are:
+
+++++++++++++++++++++++++
+
+Changed `change` to `changes` |
+Changed `needs` to `need`
+
+++++++++++++++++++++++++
 
 - Clear separation of code, configuration and dependencies and
 - Applications must be runnable as independent, lightweight, and stateless processes with quick startup and shutdown.
+
+++++++++++++++++++++++++
+
+I would number these and word like so:
+
+1. A clear separation of code, configuration and dependencies
+2. All applications must be runnable as independent, lightweight, and stateless processes with quick startup and shutdown
+
+
+++++++++++++++++++++++++
 
 ### Separation of code, configuration and dependencies
 
 #### Code
 You are likely to have multiple versions of your app - development, staging and production. Since you will use some form of CVS, you should separate the codebases for each environment and deploy the appropriate version to the corresponding environment.
 
+++++++++++++++++++++++++
+
+What is a CVS?
+
+++++++++++++++++++++++++
+
 If your app is made up of multiple smaller apps, each of the smaller apps should be deployed as independent apps.
 
 See [here](https://devcenter.heroku.com/articles/development-configuration#applications-codebases) for more details.
+
+++++++++++++++++++++++++
+
+Going off of my other comments about Heroku I would still keep this link but I'd word it as such: `See Heroku's recommendations on multiple codebases` or sometihng like that. NOTE: The same can be said for the rest of the links in this section.
+
+++++++++++++++++++++++++
 
 #### Configuration
 Configuration parameters allow you to specify the type of environment (dev, qa, production etc.), database names, third party credentials etc. These should **not** be part of the code but rather provided and managed independently.

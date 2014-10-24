@@ -16,3 +16,9 @@ The environment name is the name by which you wish to call your specific app dep
 
 Additionally, please note that you will be able to view all the environments that you have created on the left nav.
 ![List of Environments](../pics/5.env.listing.png)
+
+++++++++++++++++++++++++
+
+To stay consistent I would say "left nav bar"
+
+++++++++++++++++++++++++

@@ -13,4 +13,13 @@ To deploy your application, you will need to
 
 At this point, you will be presented with the following screen from which you can initiate the process of creating your environment by clicking on the hyperlink or the Create Environment link on the left nav bar.
 
+++++++++++++++++++++++++
+
+I would word as such:
+
+"At this point, you will be presented with the following screen from which you can initiate the process of creating your environment by clicking on the Create Environment button in the left hand nav bar"
+
+
+++++++++++++++++++++++++
+
 ![Create Env](../pics/2.start.env.creation.png)
