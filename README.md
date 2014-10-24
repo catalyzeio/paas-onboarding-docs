@@ -11,7 +11,7 @@ The biggest [value][2] that a platform as a service provides is to simplify the 
 
 ++++++++++++++++++++++++
 
-RYAN: Using Heroku so many times seems odd to me. Instead of user Heroku, couldn't we say:
+Using Heroku so many times seems odd to me. Instead of user Heroku, couldn't we say:
 
 "We want to make it as easy for a developer to build a compliant healthcare application on Catalyze as it is to deploy an app with a simple command" or something to that effect.
 
