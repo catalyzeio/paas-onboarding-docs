@@ -15,7 +15,7 @@ Similar to [Heroku](https://devcenter.heroku.com/articles/architecting-apps#on-h
 
 *Source: [Heroku Development Center](http://devcenter.heroku.com)*
 
-The two key architectural change that needs to be put into place for any application to work on Catalyze are:
+The two key architectural changes that need to be put into place for any application to work on Catalyze are:
 
 - Clear separation of code, configuration and dependencies and
 - Applications must be runnable as independent, lightweight, and stateless processes with quick startup and shutdown.
@@ -32,7 +32,7 @@ See [here](https://devcenter.heroku.com/articles/development-configuration#appli
 #### Configuration
 Configuration parameters allow you to specify the type of environment (dev, qa, production etc.), database names, third party credentials etc. These should **not** be part of the code but rather provided and managed independently.
 
-See[here](https://devcenter.heroku.com/articles/development-configuration#configuration) for more details.
+See [here](https://devcenter.heroku.com/articles/development-configuration#configuration) for more details.
 
 #### Dependencies
 Application dependencies, such as plugins and required third-party libraries should be explicitly declared and isolated.

@@ -16,10 +16,10 @@ The Catalyze PaaS is comprised of:
 ### The Dashboard
 The dashboard is where you login and access your account, view the status of the environments and associated services that have been deployed and launch your dedicated logging and monitoring services and their associated UIs.
 
-Details of the screens and activity to be performed within each is detailed under Section 2 - Deploying your first app.
+Details of the screens and activity to be performed within each is detailed under Section 3 - Deploying your first app.
 
 ### Customer Pods
-A collection of hosts is called a POD. We create collection of Pods which are meant to host our customer's applications, databases and other aspects of their environment. These Pods are IaaS-agnostic i.e. they can be deployed in AWS and/or Rackspace. More IaaS providers are in the works. The choice of IaaS providers is essentially dictated by customer demand and the willingness of the provider to sign a BAA. Customer Pods can be collections of bare metal hosts or VMs.
+A collection of hosts is called a Pod. We create collection of Pods which are meant to host our customer's applications, databases and other aspects of their environment. These Pods are IaaS-agnostic i.e. they can be deployed in AWS and/or Rackspace. More IaaS providers are in the works. The choice of IaaS providers is essentially dictated by customer demand and the willingness of the provider to sign a BAA. Customer Pods can be collections of bare metal hosts or VMs.
 
 Customer Pods are where your applications and databases are deployed as Docker containers. A significant investment of time and effort has gone into securing and isolating the containers using AppArmor profiles (for example). Additional rules have been implemented such that containers enabling high availability (HA) scenarios are not deployed on the same host.
 
