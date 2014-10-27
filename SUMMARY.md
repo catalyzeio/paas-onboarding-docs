@@ -29,5 +29,4 @@
    * [Accessing your logging server](accessing_your_environment/accessing_your_logging_enviroment.md)
    * [Accessing monitoring](accessing_your_environment/accessing_monitoring.md)
 * [HIPAA / HISTRUST compliance Features](hipaa__histrust_compliance_features.md)
-* [temp.quotes](tempquotes/README.md)
 

@@ -4,7 +4,7 @@
 
 > — Phil Karlton
 
-### Step 1: Click the create env link on the left navbar
+### Step 1: Click the Create Environment button on the left navbar
 
 ![Click Create Env](../pics/3.create.env.button.png)
 

@@ -4,4 +4,4 @@
 
 > — Frank Lloyd Wright
 
-Each of the software components that make up your application stack are called **services**. So the webapp, database are all called services in Catalyze.
+Each component of your application, be it cache, code or database is defined as a **service** in the Catalyze dashboard. Each environment is then made up of a set of **services**. 
