@@ -1,6 +1,8 @@
 # Accessing your logging server
 
-> —
+> "I don't even see the code anymore"
+
+> — Cypher (Joe Pantoliano), The Matrix
 
 Once you log into the dashboard, you can see the buttons for accessing you dedicated Logging containers next to you environment or from the Overview screen.
 
