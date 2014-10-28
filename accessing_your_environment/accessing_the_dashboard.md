@@ -1,6 +1,8 @@
 # Accessing the dashboard
 
-> —
+> "One ring to rule them all..."
+
+> — Elrond, Gandalf and others
 
 Login to the dashboard using the credentials you created earlier.
 
