@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="2.4.1" data-basepath=".." data-revision="1414515398024">
+    <div class="book"  data-level="2.4.1" data-basepath=".." data-revision="1414605914799">
     
 
 <div class="book-summary">
@@ -679,15 +679,7 @@
 <img src="../pics/20.add.ssl.key.png" alt="Adding SSL key"></li>
 </ul>
 <p><strong>SSL PEM</strong>: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue <strong>+</strong> below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available <a href="https://www.digicert.com/ssl-support/pem-ssl-creation.htm" target="_blank">here</a>. Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available <a href="http://how2ssl.com/articles/working_with_pem_files/" target="_blank">here</a>. Since various providers give this information to you differently. We&#39;d recommend opening up the PEM file and copying and pasting the individual sections <em>including</em> the <code>---- BEGIN</code> and <code>END ----</code> portions.</p>
-<ul>
-<li><strong>SSL Primary</strong>: Click the blue (+) button and paste in the primary cert as shown below. Remember to include the <code>---- BEGIN</code> and <code>END ----</code> portions. 
-<img src="../pics/21.add.primary.cert.png" alt="Adding Primary Cert"></li>
-<li><strong>Intermediary</strong>: This is optional and often depends on the certificate provider. We haven&#39;t provided you with a screenshot of this but if you have this information, please paste it in as well.</li>
-<li><strong>Rootca</strong>: Again, click the blue (+), paste the cert including the <code>---- BEGIN</code> and <code>END ----</code> portions. 
-<img src="../pics/22.add.root.ca.png" alt="Adding Root CA"></li>
-</ul>
-<p>After adding all these pieces of information, your screen should look something like this. Note that the Intermediary box has an <em>unlocked</em> icon on it as no information was entered there.
-<img src="../pics/23.added.all.png" alt="Added all cert info"></p>
+<p><img src="../pics/21.add.pem.png" alt="Adding PEM"></p>
 <p>After pasting the info above, click on the <strong>Add Domain</strong> button and you should see the domain you just added show up in the listing below as shown below.</p>
 <p><img src="../pics/24.domain.listing.png" alt="Certs and domains listing"></p>
 <p>You&#39;re now ready to specify which users will have access to Catalyze to push code to the containers in your environment.</p>
