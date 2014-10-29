@@ -2,7 +2,7 @@
 
 
 ###Register for an account
-To register for an account, go to https://dashboard.catalyze.io/signup [FIXME]
+To register for an account, go to https://preview.catalyze.io [https://preview.catalyze.io]
 
 To deploy your application, you will need to
 1. Register for an account on the [dashboard](https://dashboard.catalyze.io/signup).
