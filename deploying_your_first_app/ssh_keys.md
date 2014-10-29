@@ -62,11 +62,8 @@ pbcopy < ~/.ssh/id_rsa.pub
 ###Step 4: Paste it into the dashboard
 
 Paste the key that you just copied into the dashboard as shown below.
-![Paste the SSH key here](../pics/25.ssh.key.jpg) You can put anything in the Title box. We recommend either the user's name or ideally the email address for which the key was generated. So after this, your screen should look something like this
+You can put anything in the Title box. We recommend either the user's name or ideally the email address for which the key was generated. Once your click on the green "Add Key" button, you will see the listing of SSH keys above the text entry boxes. Note that you can add multiple ssh keys for each user you want to authorize to push code to the app.
 
-![SSH keys](../pics/26.ssh.keys.entered.png)
-
-Once your click on the green "Add Key" button, you will see the listing of SSH keys above the text entry boxes. Note that you can add multiple ssh keys for each user you want to authorize to push code to the app.
 ![SSH key listing](../pics/26.ssh.keys.entered.png)
 
 If you make mistakes or someone within your team leaves or moves to a different project, you can always come back here and remove their SSH key by clicking on the red (x) next to their email. This is the reason why we also recommend either using the person's name or email address in the Title box.
