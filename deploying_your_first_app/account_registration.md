@@ -2,10 +2,10 @@
 
 
 ###Register for an account
-To register for an account, go to https://preview.catalyze.io [https://preview.catalyze.io]
+To register for an account, go to [https://preview.catalyze.io](https://preview.catalyze.io)
 
 To deploy your application, you will need to
-1. Register for an account on the [dashboard](https://dashboard.catalyze.io/signup).
+1. Register for an account on the [preview dashboard](https://preview.catalyze.io).
 2. You will receive a confirmation email to verify your email address. Click on the link in the email, and sign in.
 3. Select Environments (Platform as a Service) from the listing of services on your screen as shown in the screenshot below.
 

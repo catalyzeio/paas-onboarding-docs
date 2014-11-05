@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Introduction to the Catalyze PaaS | The Catalyze Platform as a Service (PaaS)</title>
+        <title>Updating your environment | The Catalyze Platform as a Service (PaaS)</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Privacy is not something that I&#39;m merely entitled to, it&#39;s an absolute prerequisite.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -18,8 +18,10 @@
     
     
     
-    <link rel="next" href="./motivation.html" />
+    <link rel="next" href="./the_paas_cli.html" />
     
+    
+    <link rel="prev" href="./accessing_your_environment/accessing_monitoring.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0" data-basepath="." data-revision="1415218444489">
+    <div class="book"  data-level="4" data-basepath="." data-revision="1415218444489">
     
 
 <div class="book-summary">
@@ -49,7 +51,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -537,7 +539,7 @@
         </li>
     
         
-        <li class="chapter " data-level="4" data-path="updating_your_environment.html">
+        <li class="chapter active" data-level="4" data-path="updating_your_environment.html">
             
                 
                     <a href="./updating_your_environment.html">
@@ -673,32 +675,35 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_221">
+                    <section class="normal" id="section-gitbook_228">
                     
-                        <h1 id="the-catalyze-platform-as-a-service-paas">The Catalyze Platform as a Service (PaaS)</h1>
+                        <h1 id="updating-your-environment">Updating your environment</h1>
 <blockquote>
-<p>Privacy is not something that I&#39;m merely entitled to, it&#39;s an absolute prerequisite.</p>
-<p>— Marlon Brando</p>
+<p>Change is inevitable. Change is constant.</p>
+<p>  — Benjamin Disraeli</p>
 </blockquote>
-<p>The biggest <a href="http://www.quora.com/In-lay-man-terms-what-is-the-value-that-Heroku-brings-to-the-user-I-presume-that-anyone-can-install-and-host-Ruby-on-any-servers-Then-what-makes-Heroku-so-special" target="_blank">value</a> that a platform as a service provides is to simplify the developers life to allow them to focus on their application rather than the nuances and complexities of deployment and server configurations. Add to that all the additional requirements around complying with regulations, mandates and certifications (HIPAA, HITRUST etc.) in healthcare and the developer&#39;s challenges are multiplied tenfold. We want to make it as easy for a developer to build a compliant healthcare application on Catalyze as it is to deploy an app on <a href="http://www.heroku.com" target="_blank">Heroku</a>. With this goal in mind, we set out to design and build out the Catalyze Platform as a Service.</p>
-<h4 id="catalyze-makes-it-easy-to-deploy-secure-and-scale-apps-in-the-cloud-catalyze-gets-out-of-the-wayallowing-you-to-build-things-your-way-with-the-tools-you-lovewith-the-assurance-that-your-hosting-environment-will-be-hipaa-compliant-and-hitrust-certified">Catalyze makes it easy to deploy, secure and scale apps in the cloud. Catalyze gets out of the way—allowing you to build things your way, with the tools you love—with the assurance that your hosting environment will be HIPAA compliant and HITRUST certified.</h4>
-<p>The Catalyze Platform-as-a-Service (PaaS) is built on top of existing IaaS vendors such as Amazon Web Services and Rackspace. It manages</p>
-<ul>
-<li>web servers</li>
-<li>application servers, and</li>
-<li>database servers</li>
-</ul>
-<p>and goes further by setting up and securing</p>
-<ul>
-<li>encrypted network connections</li>
-<li>disk encryption</li>
-<li>encrypted backups</li>
-<li>disaster recovery</li>
-<li>dedicated logging servers and</li>
-<li>dedicated monitoring servers</li>
-</ul>
-<p>Each of these will be explained in more detail in subsequent sections.</p>
-<p>Note that you will see a lot of references to Heroku throughout this document. We are, however, <strong>not</strong> affiliated with Heroku.</p>
+<p>Of course, as you continue to evolve your application, you will find a need to add or change environment variables, add or remove ssh keys etc. </p>
+<p>After your environment has been provisioned, you will see the listing of your environments as soon as you login. You will see a listing on the left nav and a summary listing of the state of the environments and the associatd logging / monitoring, details and other links on the main panel as shown below. </p>
+<h4 id="if-the-environment-has-not-been-provisioned-yet">If the environment has not been provisioned yet</h4>
+<p>You will see an <strong>Update</strong> link next to the name of your environment on the main panel as shown below.</p>
+<p><img src="pics/38.update.env.png" alt="Update Environment"></p>
+<p>Click on the <strong>Update</strong> link and you will be taken to editable set of screens of your enviroment as shown below </p>
+<p><img src="pics/39.update.env.details.png" alt="Update Environment Details"></p>
+<p>This will allow you to make changes to your existing environment prior to provisioning. If you make any changes, please be sure to let us know by <a href="./deploying_your_first_app/review_your_settings.html">resending the email</a>.</p>
+<h4 id="if-your-environment-has-already-been-provisioned">If your environment has already been provisioned</h4>
+<p>You will see a <strong>View</strong> link next to the name of your environment on the main panel as shown below. </p>
+<p><img src="pics/40.view.env.png" alt="View Environment"></p>
+<p>Clicking on the <strong>View</strong> link will take you to the Overview screen as shown below. Note the large green <strong>Edit</strong> button</p>
+<p><img src="pics/41.view.overview.png" alt="View Environment Summary"></p>
+<p>Clicking on the <strong>Edit</strong> button allows you to <em>currently</em>, only edit </p>
+<ol>
+<li><strong>Environment Variables</strong> and </li>
+<li><strong>SSH keys</strong></li>
+</ol>
+<p>as shown below.</p>
+<p><img src="pics/42.edit.keys.vars.png" alt="Edit Keys and Variables"></p>
+<p>The functionality and supporting APIs to support editing and updating all the other aspects of your environment is in progress and under development.</p>
+<p>Any updates that you make to the enviroment variables or SSH keys will be picked up the next time you do a git push or deploy.</p>
 
                     
                     </section>
@@ -709,8 +714,10 @@
         </div>
 
         
+        <a href="./accessing_your_environment/accessing_monitoring.html" class="navigation navigation-prev " aria-label="Previous page: Accessing monitoring"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./motivation.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Motivation"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./the_paas_cli.html" class="navigation navigation-next " aria-label="Next page: The PaaS CLI"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

@@ -28,5 +28,7 @@
    * [Accessing the dashboard](accessing_your_environment/accessing_the_dashboard.md)
    * [Accessing your logging server](accessing_your_environment/accessing_your_logging_enviroment.md)
    * [Accessing monitoring](accessing_your_environment/accessing_monitoring.md)
+* [Updating your environment](updating_your_environment.md)
+* [The PaaS CLI](the_paas_cli.md)
 * [HIPAA / HISTRUST compliance Features](hipaa__histrust_compliance_features.md)
 

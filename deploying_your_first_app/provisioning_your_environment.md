@@ -6,7 +6,7 @@
 
 After you've sent us that email, you will shortly receive an email from us which looks something like this:
 
-**NEEDS REVIEW**
+**TO BE UPDATED SHORTLY**
 
 
 ````
