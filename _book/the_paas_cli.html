@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="5" data-basepath="." data-revision="1415218444489">
+    <div class="book"  data-level="5" data-basepath="." data-revision="1415401461291">
     
 
 <div class="book-summary">
@@ -675,15 +675,53 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_226">
+                    <section class="normal" id="section-gitbook_32">
                     
                         <h1 id="the-paas-cli">The PaaS CLI</h1>
 <blockquote>
 <p>I can’t abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one’s hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.</p>
 <p>  — William M. Briggs</p>
 </blockquote>
-<p>COMING SOON.</p>
-<p>The CLI (command line interface) is currently in alpha testing with a few select customers. Please let us know if you would like to be included in that list.</p>
+<h1 id="quickstart">Quickstart</h1>
+<h2 id="installing">Installing</h2>
+<ol>
+<li>Extract the provided zip for your platform.</li>
+<li>Move the extracted <code>catalyze</code> binary to a directory that&#39;s on your PATH (e.g. <code>/usr/bin</code>)<ul>
+<li>In the future, this will be replaced by an installer - this is just for the alpha release.</li>
+</ul>
+</li>
+</ol>
+<p>To verify: <code>catalyze --version</code></p>
+<h2 id="associating-a-local-repo-with-a-provisioned-environment">Associating a local repo with a provisioned environment</h2>
+<ol>
+<li><code>cd</code> into the project directory (the one that contains the <code>.git</code> directory).</li>
+<li><code>catalyze associate &lt;environment&gt;</code>, substituting <code>&lt;environent&gt;</code> for the name of the environment you had provisioned.<ul>
+<li>This will ask you for a set of credentials. These are the same credentials you use on the dashboard.</li>
+<li>Your environment name is listed in the dashboard. If you&#39;re not sure, run <code>catalyze environments</code>.</li>
+</ul>
+</li>
+<li>You should now have a git remote named <code>catalyze</code>. To verify: <code>git remote -v</code></li>
+</ol>
+<h2 id="buildingdeploying">Building/Deploying</h2>
+<ol>
+<li>Before deploying, a container needs to be built. To do this, push master to the catalyze remote (<code>git push catalyze master</code>).</li>
+<li>After that succeeds, you&#39;re clear to deploy. <code>catalyze deploy</code></li>
+</ol>
+<h2 id="environment-variables">Environment Variables</h2>
+<ul>
+<li>To check what&#39;s set: <code>catalyze vars</code></li>
+<li>To set a variable: <code>catalyze vars set VARIABLE_NAME=value</code></li>
+<li>To unset a variable: <code>catalyze vars delete VARIABLE_NAME</code></li>
+</ul>
+<p>Environment variable changes will get picked up when a deploy or redeploy occurs.</p>
+<h2 id="redeploying">Redeploying</h2>
+<p>Each successful new build from a push will redeploy the containers.</p>
+<h2 id="helpful-commands">Helpful commands</h2>
+<ul>
+<li><code>catalyze status</code> - Shows the status of your environment and each service.</li>
+<li><code>catalyze dashboard</code> - Open the dashboard in your default browser.</li>
+<li><code>catalyze help</code></li>
+</ul>
 
                     
                     </section>
