@@ -7,7 +7,7 @@
         <title>Architecting your app for Catalyze | The Catalyze Platform as a Service (PaaS)</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="generator" content="GitBook 1.3.3">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,7 +15,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
-    
     
     
     <link rel="next" href="../deploying_your_first_app/supported_languages__frameworks.html" />
@@ -33,7 +32,7 @@
 
 
         
-    <div class="book"  data-level="1.1" data-basepath=".." data-revision="1415401461291">
+    <div class="book" data-level="1.1" data-basepath=".." data-revision="1416506962139">
     
 
 <div class="book-summary">
@@ -675,7 +674,7 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_17">
+                    <section class="normal" id="section-gitbook_16">
                     
                         <h1 id="architecting-your-app-for-catalyze">Architecting your app for Catalyze</h1>
 <blockquote>
@@ -695,6 +694,18 @@
 <ul>
 <li>Clear separation of code, configuration and dependencies and</li>
 <li>Applications must be runnable as independent, lightweight, and stateless processes with quick startup and shutdown.</li>
+</ul>
+<h3 id="migrating-from-heroku">Migrating from Heroku</h3>
+<p>Catalyze PaaS hosting is very similar to Heroku - to switch between the two, not much has to change. Some quick differences:</p>
+<ul>
+<li>Heroku <strong>App</strong> == Catalyze <strong>Environment</strong></li>
+<li>Heroku <strong>Worker</strong> == Catalyze <strong>Background Task</strong> (or <strong>Rake Task</strong>)</li>
+<li>Heroku has one repository per app. Catalyze has one repository <strong>per code service</strong>.<ul>
+<li>This means that workers are started out of the service (using its environment variables) - you do not need to add a code service for each worker. They&#39;re added to the <code>Procfile</code>, just like heroku.</li>
+<li>Currently, Catalyze does not officially support having multiple code services in an app. Things may behave strangely if you try to create a second.</li>
+</ul>
+</li>
+<li>Catalyze will not automatically redeploy when an environment variable is changed. This is intentional - we leave it to you to either redeploy manually or push an update.</li>
 </ul>
 <h3 id="separation-of-code-configuration-and-dependencies">Separation of code, configuration and dependencies</h3>
 <h4 id="code">Code</h4>
