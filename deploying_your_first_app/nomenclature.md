@@ -20,6 +20,17 @@ The two key architectural changes that need to be put into place for any applica
 - Clear separation of code, configuration and dependencies and
 - Applications must be runnable as independent, lightweight, and stateless processes with quick startup and shutdown.
 
+### Migrating from Heroku
+
+Catalyze PaaS hosting is very similar to Heroku - to switch between the two, not much has to change. Some quick differences:
+
+* Heroku **App** == Catalyze **Environment**
+* Heroku **Worker** == Catalyze **Background Task** (or **Rake Task**)
+* Heroku has one repository per app. Catalyze has one repository **per code service**.
+    * This means that workers are started out of the service (using its environment variables) - you do not need to add a code service for each worker. They're added to the `Procfile`, just like heroku.
+    * Currently, Catalyze does not officially support having multiple code services in an app. Things may behave strangely if you try to create a second.
+* Catalyze will not automatically redeploy when an environment variable is changed. This is intentional - we leave it to you to either redeploy manually or push an update.
+
 ### Separation of code, configuration and dependencies
 
 #### Code
