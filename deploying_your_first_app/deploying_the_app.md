@@ -1,6 +1,6 @@
 # Deploying the app
 
-> Button, button, whose got the button?
+> Button, button, who's got the button?
 
 > — Willy Wonka
 
