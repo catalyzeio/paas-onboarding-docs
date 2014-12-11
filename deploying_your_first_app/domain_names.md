@@ -7,7 +7,7 @@
 ###Overview
 
 Because of the unique nature of SSL validation, provisioning SSL for your application is a multi-step process that involves several third-parties. You will need to:
-- Purchase an SSL certificate from your SSL provider
+- Purchase an SSL certificate from your SSL provider. We strongly recommend getting a "splat" certificate i.e. certificate for ``*.yourdomain.com``. This is primarily because as you go through development and finally prior to launching, you're likely to change the url. So having a splat cert, allows you the flexibility of changing domain names without having to update SSL certs.
 - SSL endpoints are provisioned by default by Catalyze
 - Upload the cert to Catalyze
 - Update your DNS settings to reference the new SSL Endpoint URL
@@ -19,7 +19,7 @@ A couple of points to pay attention to when you are purchasing the certs:
 - While generating the CSR, the Common Name field must match the secure domain **exactly**. If you buy a certificate for `example.com`, it won't match or secure `www.example.com`.
 - So, if you want to deploy:
   - A single sub-domain such as `app01.example.com`, then buy a cert that matches that exactly
-  - Multiple apps on different subdomains i.e. if you intend to deploy mutiple apps `app01.example.com` and `app02.example.com`, then buy the wildcard cert i.e. specify the URL during purchase as `*.example.com`
+  - Multiple apps on different subdomains i.e. if you intend to deploy mutiple apps `app01.example.com` and `app02.example.com`, then buy the wildcard cert i.e. specify the URL during purchase as `*.example.com`. This is what we recomend purchasing.
 
 To deploy and secure your apps on Catalyze, we need the following pieces of information that need to be pasted into the appropriate areas in the dashboard screenshot shown below.
 
@@ -29,8 +29,17 @@ To deploy and secure your apps on Catalyze, we need the following pieces of info
 
 Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
-- **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. 
+- **Corresponding SSL key, cert and PEM**: 
+
+SSL certs are tricky and there doesn't seem to be any standards around formats. So here are a few things to read / check before uploading the information to us:
+
+- [Generating a .pem file](https://www.digicert.com/ssl-support/pem-ssl-creation.htm)
+- Here a couple of handy commands to validate the SSH key. More details are available here - [verifying that a Private Key matches a Certificate](https://kb.wisc.edu/middleware/page.php?id=4064). Copy and paste this command into your terminal window - ```(openssl x509 -noout -modulus -in server.pem | openssl md5 ;\
+   openssl rsa -noout -modulus -in server.key | openssl md5) | uniq ```. If more than one hash is displayed, they don't match and you'll need to edit the information contained to fix the error. Please do not upload the infomation until they match. If you're running into issues and need clarification, please drop us an [email](mailto:support@catalyze.io?subject=SSL help) and we'll try and help you figure it out.
+
+Once this is done, click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. 
 ![Adding SSL key](../pics/20.add.ssl.key.png)
+
 
 **SSL PEM**: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue **+** below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available [here](https://www.digicert.com/ssl-support/pem-ssl-creation.htm). Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available [here](http://how2ssl.com/articles/working_with_pem_files/). Since various providers give this information to you differently. We'd recommend opening up the PEM file and copying and pasting the individual sections *including* the ``` ---- BEGIN ``` and ```END ----``` portions.
 
