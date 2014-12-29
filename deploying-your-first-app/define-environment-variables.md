@@ -23,10 +23,10 @@ and so on. More details can be got from [here](https://devcenter.heroku.com/arti
 
 You will note that the **app01** service has be pre-selected so that all the variables that you enter first correspond to app01. Put the ```VARIABLE_NAME``` in one box and the value ```WHATEVER_the_AlU3``` in the corresponding box next to it. 
 
-![Enter ENV Variables](../pics/28.add.env.var.png)
+![Enter ENV Variables](/assets/img/pics/28.add.env.var.png)
 
 Click the green **Add Variable** button each time. You will see a listing of the environment variables show up on each click above the text boxes.
-![Listing of ENV Variables](../pics/29.listing.of.env.vars.png)
+![Listing of ENV Variables](/assets/img/pics/29.listing.of.env.vars.png)
 
 To add variables for any additional apps that you might have, please click on the tab on the left with that name and enter the variables and values as described above.
 

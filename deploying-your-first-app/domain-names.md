@@ -23,23 +23,23 @@ A couple of points to pay attention to when you are purchasing the certs:
 
 To deploy and secure your apps on Catalyze, we need the following pieces of information that need to be pasted into the appropriate areas in the dashboard screenshot shown below.
 
-![Certs and domains](../pics/18.domains.certs.png)
+![Certs and domains](/assets/img/pics/18.domains.certs.png)
 
 - **URL / Domain name of the app**: As described above, you would use `app01.example.com` if you only intend to deploy the one app. If you intend to deploy several (dev, prod, qa etc.), you might choose to go with `*.example.com`
 
 Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
 - **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. 
-![Adding SSL key](../pics/20.add.ssl.key.png)
+![Adding SSL key](/assets/img/pics/20.add.ssl.key.png)
 
 **SSL PEM**: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue **+** below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available [here](https://www.digicert.com/ssl-support/pem-ssl-creation.htm). Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available [here](http://how2ssl.com/articles/working_with_pem_files/). Since various providers give this information to you differently. We'd recommend opening up the PEM file and copying and pasting the individual sections *including* the ``` ---- BEGIN ``` and ```END ----``` portions.
 
-![Adding PEM](../pics/21.add.pem.png)
+![Adding PEM](/assets/img/pics/21.add.pem.png)
 
 
 After pasting the info above, click on the **Add Domain** button and you should see the domain you just added show up in the listing below as shown below.
 
-![Certs and domains listing](../pics/24.domain.listing.png)
+![Certs and domains listing](/assets/img/pics/24.domain.listing.png)
 
 You're now ready to specify which users will have access to Catalyze to push code to the containers in your environment.
 

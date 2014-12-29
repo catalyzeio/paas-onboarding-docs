@@ -7,7 +7,7 @@
 
 ### The General Flow
 
-![Deployment steps](../pics/steps.to.deploy.png)
+![Deployment steps](/assets/img/pics/steps.to.deploy.png)
 
 The overall flow is outlined in the dashboard wizard and is explained in detail in the following sections of this document.
 
