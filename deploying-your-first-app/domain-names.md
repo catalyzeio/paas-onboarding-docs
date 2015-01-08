@@ -1,3 +1,7 @@
+---
+title: Domain Names & SSL Certificates
+---
+
 # Domain Names & SSL Certificates
 
 > I don't get what my signature is supposed to mean if we haven't had some kind of exchange.

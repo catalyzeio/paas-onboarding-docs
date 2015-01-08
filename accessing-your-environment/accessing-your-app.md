@@ -1,3 +1,7 @@
+---
+title: Accessing your app
+---
+
 # Accessing your app
 
 > "I can see! I can see!"

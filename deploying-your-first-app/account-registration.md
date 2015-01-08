@@ -1,3 +1,7 @@
+---
+title: Account Registration
+---
+
 # Account Registration
 
 

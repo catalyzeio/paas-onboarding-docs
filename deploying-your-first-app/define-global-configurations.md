@@ -1,3 +1,7 @@
+---
+title: Define configurations
+---
+
 # Define configurations
 
 > Coding is long. Design is short. Paper is cheap.

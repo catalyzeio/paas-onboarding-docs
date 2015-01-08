@@ -1,3 +1,7 @@
+---
+title: The Catalyze Platform as a Service (PaaS)
+---
+
 # The Catalyze Platform as a Service (PaaS)
 
 > Privacy is not something that I'm merely entitled to, it's an absolute prerequisite.

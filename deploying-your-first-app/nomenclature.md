@@ -1,3 +1,7 @@
+---
+title: Architecting your app for Catalyze
+---
+
 # Architecting your app for Catalyze
 
 > Good design is good business.

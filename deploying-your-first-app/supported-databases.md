@@ -1,3 +1,7 @@
+---
+title: Supported databases
+---
+
 # Supported databases
 
 > Computers have virtually replaced tape recorders.

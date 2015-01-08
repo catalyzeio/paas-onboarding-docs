@@ -1,3 +1,6 @@
+---
+title: Updating your environment
+---
 # Updating your environment
 
 > Change is inevitable. Change is constant.

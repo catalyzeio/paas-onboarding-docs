@@ -1,3 +1,7 @@
+---
+title: Accessing the dashboard
+---
+
 # Accessing the dashboard
 
 > "One ring to rule them all..."

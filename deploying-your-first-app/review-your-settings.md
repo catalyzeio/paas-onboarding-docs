@@ -1,3 +1,7 @@
+---
+title: Review your settings
+---
+
 # Review your settings
 
 > Measure twice, cut once

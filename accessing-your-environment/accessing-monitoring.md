@@ -1,3 +1,7 @@
+---
+title: Accessing monitoring
+---
+
 # Accessing monitoring
 
 > "It's alive. It's alive..."

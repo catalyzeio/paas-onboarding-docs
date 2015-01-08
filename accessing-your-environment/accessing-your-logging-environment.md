@@ -1,3 +1,7 @@
+---
+title: Accessing your logging server
+---
+
 # Accessing your logging server
 
 > "I don't even see the code anymore"

@@ -1,3 +1,6 @@
+---
+title: The PaaS CLI
+---
 # The PaaS CLI
 
 > I can’t abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one’s hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.

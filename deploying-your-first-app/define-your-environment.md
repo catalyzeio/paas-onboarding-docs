@@ -1,3 +1,7 @@
+---
+title: Define your environment
+---
+
 # Define your environment
 
 > "So tell me what you want, what you really really want.."

@@ -1,3 +1,7 @@
+---
+title: Accessing your environment
+---
+
 # Accessing your environment
 
 > "Gimme gimme gimme"

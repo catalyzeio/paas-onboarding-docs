@@ -1,3 +1,7 @@
+---
+title: Define connections between your containers
+---
+
 # Define connections between your containers
 
 > The quality of the connections is the key to quality per se.

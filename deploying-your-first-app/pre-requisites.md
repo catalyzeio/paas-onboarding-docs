@@ -1,3 +1,7 @@
+---
+title: Pre-requisites
+---
+
 # Pre-requisites
 
 > Simplicity is prerequisite for reliability.

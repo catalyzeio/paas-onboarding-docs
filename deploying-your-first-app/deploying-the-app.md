@@ -1,3 +1,7 @@
+---
+title: Deploying the app
+---
+
 # Deploying the app
 
 > Button, button, who's got the button?
