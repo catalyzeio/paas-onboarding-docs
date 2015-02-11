@@ -18,7 +18,7 @@ Services can be of type
 - **add-on** i.e. services that perform "ancilliary" functions in your app *viz: memcache, redis or RabbitMQ*.
 
 ### Step 1: Define your code service
-This is the application container i.e. where the logic of your application resides. A full listing of code services we support is available [here](./supported_languages__frameworks.html). Please let us know from the links provided there if you'd like us to support additional ones. In the data entry fields provided, you would enter the following:
+This is the application container i.e. where the logic of your application resides. A full listing of code services we support is available [here](//resources.catalyze.io/paas/getting-started/deploying-your-first-app/supported-languages-frameworks/). Please let us know from the links provided there if you'd like us to support additional ones. In the data entry fields provided, you would enter the following:
 - **Name of your service**: For example, app01
 - **Service Type**: Here you would select "Code" from the Service Type dropdown since this the application container.
 - ![Select Code Service](/assets/img/pics/6.define.code.service.png)
