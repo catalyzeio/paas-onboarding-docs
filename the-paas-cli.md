@@ -8,7 +8,7 @@ title: The PaaS CLI
 >   — William M. Briggs
 
 # Quickstart
-To use the CLI, it is assumed that you've already got an environment provisioned and set up a contract with Catalyze.
+To use the CLI, it is assumed that you've already got an environment provisioned and set up a contract with Catalyze. If you have not yet done this, you can sign up and get started [here](https://catalyze.io/signup/paas).
 
 ## Installing
 Follow the instructions at [https://github.com/catalyzeio/catalyze-paas-cli](https://github.com/catalyzeio/catalyze-paas-cli).
