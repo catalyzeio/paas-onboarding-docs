@@ -6,7 +6,7 @@ title: Pre-requisites
 
 > Simplicity is prerequisite for reliability.
 
-> - Edsger Dijkstra
+> — Edsger Dijkstra
 
 ### Sign the Business Associate Agreement
 
