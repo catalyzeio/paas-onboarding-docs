@@ -45,7 +45,7 @@ At the end of this set of selections, the screen would look something like this:
 - **Add Service**: click the Add Service button. You must click this to add it to the list. Once you do that, you will now see the service that you have just defined show up in the listing of services just above as shown below. You will now see two services being listed - the app01 service and the db01 service.
 ![Service Listing Two](http://cdn2.dropmark.com/45280/26cb47d493f4093fd168f8e8c0a2d4fe910621f5/db_datbase-in-table.png)
 
-Note that checkbox to the right now says "High Availability". This is a feature we're really proud of as we have configured PostgreSQL, MySQL and mongoDB in "HA" clusters with automatic replication. This specific feature will be expanded upon more in an upcoming publication.
+Note that the checkbox to the right now says "High Availability". This is a feature we're really proud of as we have configured PostgreSQL, MySQL and mongoDB in "HA" clusters with automatic replication. This specific feature will be expanded upon more in an upcoming publication.
 
 ###Step 3: Define your cache service (optional)
 
