@@ -8,7 +8,7 @@ title: Accessing monitoring
 
 > - Dr. Henry Frankenstein (Gene Wilder), Frankenstein (1931)
 
-Once you log into the dashboard, you can see the buttons for accessing you dedicated Monitoring containers next to you environment or from the Overview screen.
+Once you log into the dashboard, you can see the buttons for accessing your dedicated Monitoring containers next to your environment or from the Overview screen.
 
 ![Accessing Monitoring Environment](http://cdn2.dropmark.com/45280/3c2fe295698b54452f3027e74acaf5de0faad730/db_monitoring-archive.png)
 
