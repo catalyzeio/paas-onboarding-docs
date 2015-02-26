@@ -6,11 +6,10 @@ title: Accessing your environment
 
 > "Gimme gimme gimme"
 
-> — ABBA
+> - ABBA
 
-Once the app has been deployed, you will also receive the IP address of the app. Copy this address.
+In the onboarding email we sent as an update to your provision support ticket you will see the IP address for your application. You will need to add a DNS A record for your domain `app01.example.com` as such:
 
-You will need to add a DNS A record for your domain `app01.example.com`:
 ```
 public ip=your.ip.addr.ess
 ```
