@@ -6,7 +6,7 @@ title: Domain Names & SSL Certificates
 
 > I don't get what my signature is supposed to mean if we haven't had some kind of exchange.
 
-> - Nana Visitor
+> — Nana Visitor
 
 ###Overview
 
