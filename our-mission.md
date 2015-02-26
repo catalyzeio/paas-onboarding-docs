@@ -13,7 +13,7 @@ title: Our mission
 Security and compliance are at the core of what we provide. So everything that we do has to have those two goals in mind. Our customers manage sensitive data. It is our responsibility to ensure the highest level of security possible while mitigating whatever possible attack surfaces that we are aware of. That also implies that we continue to monitor, test and secure our PaaS to ensure that we continue to provide the highest level of security possible.
 
 ### Simplify Compliance
-Compliance with regulations is challenging. It is our responsibility to stay abreast of these regulations and implement them as much as possible into our offerings. Policies put into place internally at Catalyze are of the of the utmost **importance**. These policies exist for a reason and we intend to strictly adhere to them. Beyond the importance of these policies to our customers they are essential in the continuity of our business.
+Compliance with regulations is challenging. It is our responsibility to stay abreast of these regulations and implement them as much as possible into our offerings. Policies put into place internally at Catalyze are of the of the utmost **importance**. These policies exist for a reason and we intend to strictly adhere to them. Beyond the importance of these policies to our customers they are essential for the continuity of our business.
 
 ### Parity with "mainstream" software development
 Platforms like Heroku and Parse have revolutionized consumer facing software development. It is Catalyze's intention and mission to bring that same revolution to the healthcare software development industry.
