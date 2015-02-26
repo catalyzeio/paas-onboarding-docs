@@ -6,7 +6,7 @@ title: Define connections between your containers
 
 > The quality of the connections is the key to quality per se.
 
-> - Charles Eames
+> — Charles Eames
 
 Now that you have defined the various services within your environment, the next step is to tell the Catalyze PaaS how you would like them to be wired up. We ask you to make these connections explicitly. Only those connections will be set up and only those containers will be able to talk to each other. We do this to maximize security and isolation of your containers. 
 
