@@ -15,7 +15,7 @@ Let's take the case of a simple application which uses Ruby as the application (
 Services can be of type:
 
 - **code** (the programming language of your preference *viz: Ruby, Java, Python...*. This is the application container i.e. where the logic of your application resides)
-- **database** (the database of your choice *viz: mongodb, MySQL, and PostgresSQL*)
+- **database** (the database of your choice *viz: MongoDB, MySQL/Percona, and PostgreSQL*)
 - **add-ons** (services that perform "ancillary" functions in your app *viz: memcache, redis or RabbitMQ*)
 
 ### Step 1: Define your code service
@@ -25,7 +25,7 @@ This is the application container i.e. where the logic of your application resid
 - **Name of your service**: (e.g. app01)
 - **Service Type**: Since we want to build the application layer we'll select "Code" from the dropdown.
 - ![Select Code Service](http://cdn2.dropmark.com/45280/5172f7da631a6d164be6f96ab9e92facd8849475/db_select-code.png)
-- **Service Size**: Sizing essentially corresponds to the amount of RAM you wish to dedicate to this specific service. So, for example, if you know that your app has a pretty high volume of users, you would select 4GB or higher from the dropdown. Or you would select a smaller number if that was appropriate. Let's say we select 2GB in our example
+- **Service Size**: Sizing essentially corresponds to the amount of RAM you wish to dedicate to this specific service. So, for example, if you know that your app has a pretty high volume of users, you would select 4GB or higher from the dropdown. Or you would select a smaller number if that was appropriate. Let's say we select 2GB in our example. Please ensure that your selections match your contract to minimize any confusion.
 At the end of this set of selections, the screen would look something like this:
 ![Code Selections](http://cdn2.dropmark.com/45280/1dcc0fd76994a0844ee205cfd90d713f6c772d33/db_code-defined.png)
 - **Add Service**: Click the Add Service button. You must click this to add it to the list. Once you do that, you will now see the service that you have just defined show up in the listing of services just above as shown below.
@@ -45,7 +45,7 @@ At the end of this set of selections, the screen would look something like this:
 - **Add Service**: click the Add Service button. You must click this to add it to the list. Once you do that, you will now see the service that you have just defined show up in the listing of services just above as shown below. You will now see two services being listed - the app01 service and the db01 service.
 ![Service Listing Two](http://cdn2.dropmark.com/45280/26cb47d493f4093fd168f8e8c0a2d4fe910621f5/db_datbase-in-table.png)
 
-Note that the checkbox to the right now says "High Availability". This is a feature we're really proud of as we have configured PostgreSQL, MySQL and mongoDB in "HA" clusters with automatic replication. This specific feature will be expanded upon more in an upcoming publication.
+Note that the checkbox to the right now says "High Availability". This is a feature we're really proud of as we have configured PostgreSQL, MySQL / Percona and MongoDB in "HA" clusters with automatic replication. This specific feature will be expanded upon more in an upcoming publication.
 
 ###Step 3: Define your cache service (optional)
 
@@ -53,7 +53,7 @@ If your environment calls for a cache service like Memcached or Redis, then sele
 
 ![Cache selection](http://cdn2.dropmark.com/45280/ce12d6967ffbba613dedf2f7f8cb8c54d0ee22b7/db_cache-selected.png)
 
-Click on the Add Service button and you should see a listing of services as shown below. Note that HA is **NOT** available in cache selections.
+Click on the Add Service button and you should see a listing of services as shown below. Note that HA is **NOT** available in cache selections in an automated fashion. Please drop us a note on the support channel and we'll be happy to discuss it more with you.
 
 ![Service Listing](http://cdn2.dropmark.com/45280/0c51d836f0da3c663020a543dad9afc52d5210f2/db_all-services.png)
 
