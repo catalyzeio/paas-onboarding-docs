@@ -15,4 +15,4 @@ $ git remote add catalyze git@git.catalyze.io:your_env_name-code.git
 $ git push catalyze master
 ```
 
-You will see the build output scroll past on your terminal. If you see errors, please fix those and re-deploy. We are currently working on a list of problems that we've seen happen and possible fixes or workarounds.
+You will see the build output scroll past on your terminal. If you see errors, please fix those and re-deploy. We are currently working on documenting some of the more common issues and problems that other customers have run into specific to the various combinations of languages and databases and the possible fixes or workarounds.
