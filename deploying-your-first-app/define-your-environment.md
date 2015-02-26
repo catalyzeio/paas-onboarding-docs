@@ -6,7 +6,7 @@ title: Define your environment
 
 > "So tell me what you want, what you really really want.."
 
-> - The Spice Girls
+> — The Spice Girls
 
 The next step is defining what your environment needs to look like. This is where you specify the number and types of containers you need.
 
