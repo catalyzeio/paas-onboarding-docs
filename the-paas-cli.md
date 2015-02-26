@@ -3,17 +3,17 @@ title: The PaaS CLI
 ---
 # The PaaS CLI
 
-> I can’t abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one’s hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.
+> I can't abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one's hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.
 
->   — William M. Briggs
+> - William M. Briggs
 
-# Quickstart
+# Quick Start
 To use the CLI, it is assumed that you've already got an environment provisioned and set up a contract with Catalyze. If you have not yet done this, you can sign up and get started [here](https://catalyze.io/signup/paas).
 
 ## Installing
 Follow the instructions at [https://github.com/catalyzeio/catalyze-paas-cli](https://github.com/catalyzeio/catalyze-paas-cli).
 
-## Associating a local repo with a provisioned environment
+## Associating a local repository with a provisioned environment
 
 1. `cd` into the project directory (the one that contains the `.git` directory).
 2. `catalyze associate <environment>`, substituting `<environent>` for the name of the environment you had provisioned.

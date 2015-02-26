@@ -1,48 +1,51 @@
 ---
 title: Updating your environment
 ---
+
 # Updating your environment
 
 > Change is inevitable. Change is constant.
 
 >   — Benjamin Disraeli
 
-Of course, as you continue to evolve your application, you will find a need to add or change environment variables, add or remove ssh keys etc. 
+Of course, as your application continues to evolve, you will find a need to add or change environment variables, and add or remove ssh keys, etc.
 
-After your environment has been provisioned, you will see the listing of your environments as soon as you login. You will see a listing on the left nav and a summary listing of the state of the environments and the associatd logging / monitoring, details and other links on the main panel as shown below. 
+Once your environment has been provisioned, or saved, you will see it in the environment archive in the environments section of the dashboard (this is the initial screen you see when selecting your product after signing in - `dashboard.catalyze.io/environments`). To the left you will see a listing of your environments. Depending on the state of your environment you will see various links in the main environment panel. These correspond to:
+
+- Overview (your environment's services and their associated information)
+- Monitoring (health checks on your environment - Sensu)
+- Logging (application logs - ELK Stack: Elastic Search, LogStash, Kibana)
+- Update (update your saved environment's information)
 
 ####If the environment has not been provisioned yet
-You will see an **Update** link next to the name of your environment on the main panel as shown below.
+You will see an **Update** link in the bottom navigation area of the main environment panel.
 
-![Update Environment](/assets/img/pics/38.update.env.png)
+![Update Environment](http://cdn2.dropmark.com/45280/232884f563d6d6ed1a458201faf96606b887feb7/db_update.png)
 
-Click on the **Update** link and you will be taken to editable set of screens of your enviroment as shown below 
+Click on the **Update** link to edit details about your environment. This is essentially and exact replica of the creation steps when you initially built your environment.
 
-![Update Environment Details](/assets/img/pics/39.update.env.details.png)
+![Update Environment Details](http://cdn2.dropmark.com/45280/fd551d28b44e74e8217ef2dc8d50bb14a77c2be2/db_update-steps.png)
 
 This will allow you to make changes to your existing environment prior to provisioning. If you make any changes, please be sure to let us know by [resending the email](./deploying_your_first_app/review_your_settings.html).
 
 ####If your environment has already been provisioned
-You will see a **View** link next to the name of your environment on the main panel as shown below. 
+You will see an **Overview** link in the bottom navigation area of the main environment panel.
 
-![View Environment](/assets/img/pics/40.view.env.png)
+![View Environment](http://cdn2.dropmark.com/45280/24d6a733ae8cce4671d79eb6e6b1be61525df4ac/db_overview.png)
 
-Clicking on the **View** link will take you to the Overview screen as shown below. Note the large green **Edit** button
+Clicking on the **Overview** link will take you to the Overview screen as shown below. Note the edit button in the top right.
 
-![View Environment Summary](/assets/img/pics/41.view.overview.png)
+![View Environment Summary](http://cdn2.dropmark.com/45280/46e25d81e05a19dcbd441f900b11df65db19dd7c/db_overview-page.png)
 
-Clicking on the **Edit** button allows you to *currently*, only edit 
+Clicking on the **Edit** button allows you to *currently*, only edit:
 
-1. **Environment Variables** and 
+1. **Environment Variables** and
 2. **SSH keys**
 
 as shown below.
 
-![Edit Keys and Variables](/assets/img/pics/42.edit.keys.vars.png)
+![Edit Keys and Variables](http://cdn2.dropmark.com/45280/90f34736ef0eed5df37076d9125c98b6317007b8/db_edit.png)
 
+We are currently developing the ability to allow users to edit and scale their environments in different ways.
 
-The functionality and supporting APIs to support editing and updating all the other aspects of your environment is in progress and under development.
-
-
-Any updates that you make to the enviroment variables or SSH keys will be picked up the next time you do a git push or deploy.
-
+**Note:** Any changes made to SSH Keys and Environment Variables will take hold after you next git push or deploy.
