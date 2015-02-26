@@ -5,7 +5,7 @@ title: The PaaS CLI
 
 > I can't abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one's hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.
 
-> - William M. Briggs
+> — William M. Briggs
 
 # Quick Start
 To use the CLI, it is assumed that you've already got an environment provisioned and set up a contract with Catalyze. If you have not yet done this, you can sign up and get started [here](https://catalyze.io/signup/paas).
