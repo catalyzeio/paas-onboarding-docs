@@ -6,7 +6,7 @@ title: Accessing monitoring
 
 > "It's alive. It's alive..."
 
-> - Dr. Henry Frankenstein (Gene Wilder), Frankenstein (1931)
+> — Dr. Henry Frankenstein (Gene Wilder), Frankenstein (1931)
 
 Once you log into the dashboard, you can see the buttons for accessing your dedicated Monitoring containers next to your environment or from the Overview screen.
 
