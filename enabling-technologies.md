@@ -6,7 +6,7 @@ title: Enabling technologies
 
 > I don't look at myself as a commodity, but I'm sure a lot of people have.
 
-> - Marilyn Monroe
+> — Marilyn Monroe
 
 As an obvious starting point, the commoditization of software components used to build web applications has made it much easier to support arbitrary customer environments. Web frameworks such as [node.js](//nodejs.org) and [Ruby on Rails](//rubyonrails.org/) along with storage technologies like [MySQL](//www.mysql.com), [PostgreSQL](//www.postgresql.org/), and [MongoDB](//www.mongodb.com/) (among others) on top of Linux have become so common that adding support for these services enables support for a **wide** variety of user applications.
 
