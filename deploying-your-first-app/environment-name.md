@@ -6,7 +6,7 @@ title: Environment Name
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
-> - Phil Karlton
+> — Phil Karlton
 
 ### Step 1: Click the Create Environment button in the left navigation bar
 
