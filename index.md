@@ -6,7 +6,7 @@ title: The Catalyze Platform as a Service (PaaS)
 
 > Privacy is not something that I'm merely entitled to, it's an absolute prerequisite.
 
-> - Marlon Brando
+> — Marlon Brando
 
 The largest [value](//www.quora.com/In-lay-man-terms-what-is-the-value-that-Heroku-brings-to-the-user-I-presume-that-anyone-can-install-and-host-Ruby-on-any-servers-Then-what-makes-Heroku-so-special) that a platform as a service provides is simplification. "A day in the life" of a developer in 2015 typically includes *some* type of server management or configuration. If that developer happens to be working on a healthcare application, the additional requirements around complying with regulations, mandates and certifications (HIPAA, HITRUST etc.) make the developer's job even more complex.
 
