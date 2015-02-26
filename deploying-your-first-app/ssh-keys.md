@@ -6,7 +6,7 @@ title: SSH Keys
 
 > No one can drive us crazy unless we give them the keys.
 
-> - Douglas Horton
+> — Douglas Horton
 
 Once your environment is provisioned, you will be given a git url to push your code to. A public SSH key is required for you to push code to the Catalyze PaaS. Although the provisioning step happens after you enter your SSH key, we need the information in advance so we can authorize you (and only you) to push code to the PaaS.
 
