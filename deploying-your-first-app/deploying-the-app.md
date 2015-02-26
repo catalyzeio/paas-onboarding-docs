@@ -6,7 +6,7 @@ title: Deploying the app
 
 > Button, button, who's got the button?
 
-> - Willy Wonka
+> — Willy Wonka
 
 At this point you'll switch over to the CLI. Using your terminal navigate to your application's code layer (i.e. if you're building a rails app you'll want to be in your root directory where `.git` is typically located). Replace *your_env_name* in the example below with the environment name you specified [earlier](//resources.catalyze.io/paas/getting-started/deploying-your-first-app/environment-name/).
 
