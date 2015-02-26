@@ -6,7 +6,7 @@ title: Accessing the dashboard
 
 > "One ring to rule them all..."
 
-> - Elrond, Gandalf and others
+> — Elrond, Gandalf and others
 
 Sign in to the dashboard using the credentials you created earlier.
 
