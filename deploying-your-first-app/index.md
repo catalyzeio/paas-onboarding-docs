@@ -11,7 +11,7 @@ title: Deploying your first app
 
 ### The General Flow
 
-![Deployment steps](/assets/img/pics/steps.to.deploy.png)
+![Deployment steps](http://cdn2.dropmark.com/45280/431cb61c0eb9777ea0394e6ae4d6e2828a0dfc8a/db_general-flow.png)
 
 The overall flow is outlined in the dashboard wizard and is explained in detail in the following sections of this document.
 

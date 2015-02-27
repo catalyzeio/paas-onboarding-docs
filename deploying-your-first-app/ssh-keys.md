@@ -14,7 +14,7 @@ Once your environment is provisioned, you will be given a git url to push your c
 Note that you will need to add a unique ssh key per user that you wish to authorize to push code to the Catalyze PaaS.
 ```
 
-If you don’t already use SSH, you’ll need to create a public/private key pair to deploy code to Catalyze. This keypair is used for the strong cryptography and that uniquely identifies you as a developer when pushing code changes.
+If you don't already use SSH, you'll need to create a public/private key pair to deploy code to Catalyze. This keypair is used for the strong cryptography and that uniquely identifies you as a developer when pushing code changes.
 
 Just like Heroku, we support RSA and DSA key formats. ECDSA keys are currently not supported.
 
@@ -57,7 +57,7 @@ ssh-add ~/.ssh/id_rsa
 ```
 
 ###Step 3: Copy the key
-Type in the following code which will copy the key to your clipboard so that you can directly (Command+v) paste it into the appropriate field in the dashboard.
+Type in the following code which will copy the key to your clipboard so that you can directly (command+v) paste it into the appropriate field in the dashboard.
 
 ```
 pbcopy < ~/.ssh/id_rsa.pub
@@ -68,7 +68,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 Paste the key that you just copied into the dashboard as shown below.
 You can put anything in the Title box. We recommend either the user's name or ideally the email address for which the key was generated. Once your click on the green "Add Key" button, you will see the listing of SSH keys above the text entry boxes. Note that you can add multiple ssh keys for each user you want to authorize to push code to the app.
 
-![SSH key listing](/assets/img/pics/26.ssh.keys.entered.png)
+![SSH key listing](http://cdn2.dropmark.com/45280/61244f4788a7c28bdac69f34721ff169464b6632/db_ssh-key.png)
 
 If you make mistakes or someone within your team leaves or moves to a different project, you can always come back here and remove their SSH key by clicking on the red (x) next to their email. This is the reason why we also recommend either using the person's name or email address in the Title box.
 
