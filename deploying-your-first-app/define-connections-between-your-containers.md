@@ -8,9 +8,9 @@ title: Define connections between your containers
 
 > — Charles Eames
 
-Now that you have defined the various services within your environment, the next step is to tell the Catalyze PaaS how you would like them to be wired up. We ask you to make these connections explicitly. Only those connections will be set up and only those containers will be able to talk to each other. We do this to maximize security and isolation of your containers. 
+Now that you have defined the various services within your environment, the next step is to tell the Catalyze PaaS how you would like them to be wired up. We ask you to make these connections explicitly. Only those connections will be set up and only those containers will be able to talk to each other. We do this to maximize security and isolation of your containers.
 
-The convention we follow is data centric i.e. the store or source of data (e.g. database) **provides** data to the **consumer** of data (e.g. the application). So in the example that we've been working through, the PostgreSQL service provides data to the Ruby service. So you would select **db01** from the Data Provider drop down and **App01** from the Data Consumer dropdown. (**Note:** The diagram on the right is fully interactive. To add a connection, simply drag and arrow from a data provider to a data consumer)
+The convention we follow is data centric i.e. the store or source of data (e.g. database) **provides** data to the **consumer** of data (e.g. the application). So in the example that we've been working through, the PostgreSQL service provides data to the Ruby service. So you would select **db01** from the Data Provider drop down and **App01** from the Data Consumer dropdown.(**Note:** The diagram on the right is fully interactive. To add a connection, simply drag an arrow from a data provider to a data consumer.)
 
 ![Consumer Provider connections 1](http://cdn2.dropmark.com/45280/16a606818be74b31d8854a79e232f4927ef3dbe1/db_connection-dropdown.png)
 
