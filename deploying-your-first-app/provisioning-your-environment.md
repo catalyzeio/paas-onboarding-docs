@@ -11,7 +11,7 @@ title: Provisioning your environment
 Once we've received your ticket, after you've selected the "Provision Environment" button, we will confirm your details and move forward with provisioning. You will receive an email with an update to the open support ticket outlining your environment details. Included will be links to your logging and monitoring server, as well as other information. Please see below for a template of the ticket update that you will receive:
 
 
-```
+<div class="r_md-panel">
 Hi,
 
 We have provisioned the new environment for you. Here are the details:
@@ -43,4 +43,4 @@ Detailed onboarding documents and a getting started guide are available here - h
 
 A FAQ on commonly asked questions is available here - https://resources.catalyze.io/paas/paas-faq
 
-```
+</div>
