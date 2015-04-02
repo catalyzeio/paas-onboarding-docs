@@ -27,7 +27,7 @@ The currently supported databases are also available in HA mode which is describ
 
 #### Postgres HA (in process)
 Postgres HA is configured as follows:
-- A pair of postgres containers deployed as master and slave respectively
+- A pair of Postgres containers deployed as master and slave respectively
 - Streaming replication is enabled between the master and slave using [WAL-E](https://github.com/wal-e/wal-e)
 
 More details will be forthcoming shortly.

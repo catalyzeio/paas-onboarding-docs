@@ -26,7 +26,7 @@ A couple of points to pay attention to when you are purchasing the certs:
 So, if you want to deploy:
 
 - A single sub-domain such as `app01.example.com`, then buy a cert that matches that exactly
-- Multiple apps on different subdomains i.e. if you intend to deploy mutiple apps `app01.example.com` and `app02.example.com`, then buy the wildcard cert i.e. specify the URL during purchase as `*.example.com`
+- Multiple apps on different subdomains i.e. if you intend to deploy multiple apps `app01.example.com` and `app02.example.com`, then buy the wildcard cert i.e. specify the URL during purchase as `*.example.com`
 
 To deploy and secure your apps on Catalyze, we need the following pieces of information that need to be pasted into the appropriate areas in the dashboard screenshot shown below.
 
