@@ -16,7 +16,7 @@ Follow the instructions at [https://github.com/catalyzeio/catalyze-paas-cli](htt
 ## Associating a local repository with a provisioned environment
 
 1. `cd` into the project directory (the one that contains the `.git` directory).
-2. `catalyze associate <environment>`, substituting `<environent>` for the name of the environment you had provisioned.
+2. `catalyze associate <environment>`, substituting `<environment>` for the name of the environment you had provisioned.
     * This will ask you for a set of credentials. These are the same credentials you use on the dashboard.
     * Your environment name is listed in the dashboard. If you're not sure, run `catalyze environments` - this will list all environments to which you have access.
 3. You should now have a git remote named `catalyze`. To verify: `git remote -v`

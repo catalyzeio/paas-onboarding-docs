@@ -41,8 +41,8 @@ The Customer API's role is to translate the dashboard inputs into Pod API-speak.
 The Pod API is the workhorse of the Catalyze PaaS. The core responsibilities of the Pod API is primarily to:
 
 * receive inbound service configurations from the customer API
-* transform them into dockerfiles and associated configurations
+* transform them into Dockerfiles and associated configurations
 * pass the information to the internal "proxy" to wire up the containers with TLS enabled
-* deploy containers across hosts based on various bidding rules - e.g. in an HA environment, do not deploy both postgres containers on the same host
+* deploy containers across hosts based on various bidding rules - e.g. in an HA environment, do not deploy both Postgres containers on the same host
 
-There are separate modules which handle specific capabilities such as orchestration, service registry, docker registry etc.
+There are separate modules which handle specific capabilities such as orchestration, service registry, Docker registry etc.
