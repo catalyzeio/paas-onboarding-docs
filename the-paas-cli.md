@@ -13,7 +13,9 @@ To use the CLI, it is assumed that you've already got an environment provisioned
 ## Installing
 Follow the instructions at [https://github.com/catalyzeio/catalyze-paas-cli](https://github.com/catalyzeio/catalyze-paas-cli).
 
-## Associating a local repository with a provisioned environment
+More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/cli/). The repo linked above is also open source so feel free to issue a pull request, suggest improvemennts or create issues as you use it.
+
+<!--## Associating a local repository with a provisioned environment
 
 1. `cd` into the project directory (the one that contains the `.git` directory).
 2. `catalyze associate <environment>`, substituting `<environment>` for the name of the environment you had provisioned.
@@ -38,4 +40,4 @@ Each successful new build from a push will restart that container. If you'd like
 * `catalyze status` - Shows the status of your environment and each service.
 * `catalyze dashboard` - Open the dashboard in your default browser.
 
-Run `catalyze --help` for the full list. To get help on an individual command, run `catalyze <command> --help`.
+Run `catalyze --help` for the full list. To get help on an individual command, run `catalyze <command> --help`. -->
