@@ -12,6 +12,8 @@ Now that you have defined the various services within your environment, the next
 
 The convention we follow is data centric i.e. the store or source of data (e.g. database) **provides** data to the **consumer** of data (e.g. the application). So in the example that we've been working through, the PostgreSQL service provides data to the Ruby service. So you would select **db01** from the Data Provider drop down and **App01** from the Data Consumer dropdown.(**Note:** The diagram on the right is fully interactive. To add a connection, simply drag an arrow from a data provider to a data consumer.)
 
+**Note:** Catalyze now provides support for auto-connecting services. When working with your new environment you will see that your services have been auto-connected for you. If you wish to change those connections follow the process below.
+
 ![Consumer Provider connections 1](http://cdn2.dropmark.com/45280/16a606818be74b31d8854a79e232f4927ef3dbe1/db_connection-dropdown.png)
 
 Click the Add Connection button and you will see the graphical view of the connection shown on the right and listed below as well.
