@@ -34,4 +34,3 @@ It goes further by setting up and securing:
 Each of these will be explained in more detail in subsequent sections.
 
 Note that you will see a lot of references to Heroku throughout this document. We are, however, **not** affiliated with Heroku.
-
