@@ -1,11 +1,11 @@
 ---
-title: Reviewing Your Contract
+title: Finalize Your Contract
 ---
 
 > Friendship is a contract in which we render small services for bigger ones.
 -Charles de Montesquieu
 
-#Reviewing Your Contract
+#Finalize Your Contract
 
 Once you have received a Contract from catalyze via email, follow the dashboard link to view your contract in the Catalyze dashboard.  
 
