@@ -1,5 +1,5 @@
 ---
-title: Reviewing Your Environment
+title: Reviewing Your Contract
 ---
 
 > Friendship is a contract in which we render small services for bigger ones.
