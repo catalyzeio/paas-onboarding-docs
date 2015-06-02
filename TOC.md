@@ -12,6 +12,7 @@
 * [Deploying your first app](deploying_your_first_app/README.md)
    * [Pre-requisites](deploying_your_first_app/pre-requisites.md)
    * [Account Registration](deploying_your_first_app/account_registration.md)
+   * [Finalize your contract](deploying_your_first_app/finalize_your_contract.md)
    * [Define Services](deploying_your_first_app/define_services.md)
        * [Environment Name](deploying_your_first_app/environment_name.md)
        * [Define your environment](deploying_your_first_app/define_your_environment.md)
