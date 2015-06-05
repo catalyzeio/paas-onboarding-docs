@@ -17,11 +17,11 @@ The general rule of thumb to follow is that if it is supported by Heroku, it is 
 
 The associated buildpacks for the above are derived from these repos:
 
-- Ruby: https://github.com/heroku/heroku-buildpack-ruby.git
-- Java: https://github.com/heroku/heroku-buildpack-java.git
-- Python: https://github.com/heroku/heroku-buildpack-python.git
-- Node.js: https://github.com/heroku/heroku-buildpack-nodejs.git
-- PHP: https://github.com/CHH/heroku-buildpack-php.git
+- [Ruby](https://github.com/heroku/heroku-buildpack-ruby.git)
+- [Java](https://github.com/heroku/heroku-buildpack-java.git)
+- [Python](https://github.com/heroku/heroku-buildpack-python.git)
+- [Node.js](https://github.com/heroku/heroku-buildpack-nodejs.git)
+- [PHP](https://github.com/CHH/heroku-buildpack-php.git)
 
 There are a few additional ones that Heroku supports but have not been fully tested in our environment primarily due to lack of demand. If you are really interested in using one of these languages, then please drop us a line, and we'll work to test and release them as soon as possible.
 - Clojure: [Request Support](mailto:support@catalyze.io?subject=Clojure buildpack support)
