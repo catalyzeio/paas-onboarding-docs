@@ -36,12 +36,47 @@ To deploy and secure your apps on Catalyze, we need the following pieces of info
 
 Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
-- **Corresponding SSL key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here.
-![Adding SSL key](http://cdn2.dropmark.com/45280/9061ec1c6f7270453b083f6fd3c4cf9e1776ff2c/db_ssl-key.png)
+- **Corresponding SSL Private Key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. Your SSL Private Key should look similar to
 
-**SSL PEM**: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue **+** below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available [here](https://www.digicert.com/ssl-support/pem-ssl-creation.htm). Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available [here](http://how2ssl.com/articles/working_with_pem_files/). Since various providers give this information to you differently. We'd recommend opening up the PEM file and copying and pasting the individual sections *including* the ``` ---- BEGIN ``` and ```END ----``` portions.
+  ```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpgIBAAKCAQEA63JKaFHoxPhcUm6IbF89dK9L525lrXEuVcWFSdM0pfyFwm4f
+7RDWnldoZYAvRrs3BSvZOk99sfctJfXqRQ1YxaghJjgSCA3zUWDOO1RfHXkCGm4h
+                              ...
+43MF+8shntiNJTPSXxfz0I17iGJKRIZS8EW/E0+xvG8rPDwAkxCox6Q4ppzQjK7D
+9OISeD6x/sfiIt1yM+kKa0juvJoEqZYWk8WZe7foAL1znOMtVmrbvCrx
+-----END RSA PRIVATE KEY-----
+  ```
 
-![Adding PEM](http://cdn2.dropmark.com/45280/93f68829333c8e8f64300d4717b7a778f8ff3311/db_ssl-pem.png)
+![Adding SSL Private Key](http://cdn2.dropmark.com/45280/9061ec1c6f7270453b083f6fd3c4cf9e1776ff2c/db_ssl-key.png)
+
+**SSL Certificate Chain**: You will also need the PEM for the Primary, Intermediate and RootCA authorities. Click on the blue **+** below each of them and paste the values in there. Details on how to go about generating and getting the PEMs are available [here](https://www.digicert.com/ssl-support/pem-ssl-creation.htm). Details and some explanation around what the PEM (also sometimes used interchangeably with .crt files) are also available [here](http://how2ssl.com/articles/working_with_pem_files/). Since various providers give this information to you differently, we'd recommend opening up the PEM file and copying and pasting the individual sections *including* the ``` ---- BEGIN ``` and ```END ----``` portions. Your full SSL Certificate Chain should look similar to
+
+  ```
+-----BEGIN CERTIFICATE-----
+MIID8DCCAtigAwIBAgIJAKABWQWr+7nKMA0GCSqGSIb3DQEBBQUAMFgxCzAJBgNV
+BAYTAlVTMRIwEAYDVQQIEwlXaXNjb25zaW4xEjAQBgNVBAcTCU1pbHdhdWtlZTEh
+                              ...
+2afy/aCjKSRof5jQijqlhRnnydXcZTg1xboXaZIYTeORVEDIGco8o1lX1TQtNcHB
+uHd9WQ==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+vT0NTxC0MIGJBgNVHSMEgYEwf4AUv4GBeXNS1hielRyTmvO9PQ1PELShXKRaMFgx
+CzAJBgNVBAYTAlVTMRIwEAYDVQQIEwlXaXNjb25zaW4xEjAQBgNVBAcTCU1pbHdh
+                              ...
+LX3qHXiV/tlijIosyqPDhPGNcQLym66Jux0EjdHw6vFqfOyvpNDqC2+gPENZ9bC+
+pdRELP==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+bnNpbjESMBAGA1UEBxMJTWlsd2F1a2VlMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRn
+aXRzIFB0eSBMdGQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDrckpo
+                              ...
+UejE+FxSbohsXz10r0vnbmWtcS5VxYVJ0zSl/IXCbh/tENaeV2hlgC9GuzcFK9k6
+T32x9y==
+-----END CERTIFICATE-----
+  ```
+
+![Adding Certificate Chain](http://cdn2.dropmark.com/45280/93f68829333c8e8f64300d4717b7a778f8ff3311/db_ssl-pem.png)
 
 
 After pasting the info above, click on the **Add Domain** button and you should see the domain you just added show up in the listing below as shown below.
@@ -49,4 +84,3 @@ After pasting the info above, click on the **Add Domain** button and you should 
 ![Certs and domains listing](http://cdn2.dropmark.com/45280/5964ee65cef0c25fc550b9a122c512775e5d8173/db_domain-added.png)
 
 You're now ready to specify which users will have access to Catalyze to push code to the containers in your environment.
-
