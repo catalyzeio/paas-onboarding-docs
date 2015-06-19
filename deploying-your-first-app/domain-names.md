@@ -36,7 +36,7 @@ To deploy and secure your apps on Catalyze, we need the following pieces of info
 
 Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
-- **Corresponding SSL Private Key**: Click on the blue (+) button in this box. This will open up a textbox. Paste the SSL key in here. Your SSL Private Key should look similar to
+- **Corresponding SSL Private Key**: Click on the blue (+) button in the box (as shown in the image below). This will open up a textbox. Paste the SSL key in there. Your SSL Private Key should look similar to:
 
   ```
 -----BEGIN RSA PRIVATE KEY-----
