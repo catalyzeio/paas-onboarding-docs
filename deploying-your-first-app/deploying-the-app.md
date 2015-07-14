@@ -9,7 +9,7 @@ title: Deploying the app
 > — Willy Wonka
 
 
-At this point you'll switch over to the CLI. Be sure you've installed the CLI. 
+At this point you'll switch over to the CLI. Be sure you've installed the CLI ([instructions here](https://github.com/catalyzeio/catalyze-paas-cli/blob/master/README.md)). 
 
 Using your terminal navigate to your application's code layer (i.e. if you're building a rails app you'll want to be in your root directory where `.git` is typically located). You need to associate your local repository with your Catalyze environment name
 
