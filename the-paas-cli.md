@@ -11,7 +11,7 @@ title: The PaaS CLI
 To use the CLI, it is assumed that you've already got an environment provisioned and set up a contract with Catalyze. If you have not yet done this, you can sign up and get started [here](https://catalyze.io/signup/paas).
 
 ## Installing
-Follow the instructions at [https://github.com/catalyzeio/catalyze-paas-cli](https://github.com/catalyzeio/catalyze-paas-cli).
+Follow the instructions at [https://github.com/catalyzeio/cli](https://github.com/catalyzeio/cli).
 
 More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/cli/). The repo linked above is also open source so feel free to issue a pull request, suggest improvemennts or create issues as you use it.
 
