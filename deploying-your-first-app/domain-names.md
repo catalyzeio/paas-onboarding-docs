@@ -32,11 +32,15 @@ To deploy and secure your apps on Catalyze, we need the following pieces of info
 
 ![Certs and domains](http://cdn2.dropmark.com/45280/53bdc9f6fb5fb1a9e441c3b8afcd8ae4a73a2ad6/db_domain-name.png)
 
-- **URL / Domain name of the app**: As described above, you would use `app01.example.com` if you only intend to deploy the one app. If you intend to deploy several (dev, prod, qa etc.), you might choose to go with `*.example.com`
+### URL / Domain name of the app
+
+As described above, you would use `app01.example.com` if you only intend to deploy the one app. If you intend to deploy several (dev, prod, qa etc.), you might choose to go with `*.example.com`
 
 Quick note: please remember to click the blue (+) button to open the textbox to enter the information.
 
-- **Corresponding SSL Private Key**: Click on the blue (+) button in the box (as shown in the image below). This will open up a textbox. Paste the SSL key in there. Your SSL Private Key should look similar to:
+### Corresponding SSL Private Key
+
+Click on the blue (+) button in the box (as shown in the image below). This will open up a textbox. Paste the SSL key in there. Your SSL Private Key should look similar to:
 
   ```
 -----BEGIN RSA PRIVATE KEY-----
