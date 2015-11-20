@@ -29,7 +29,7 @@ The two key architectural changes that need to be put into place for any applica
 Catalyze PaaS hosting is very similar to Heroku - to switch between the two, not much has to change. Some quick differences:
 
 * Heroku **App** == Catalyze **Environment**
-* Heroku **Worker** == Catalyze **Background Task** (or **Rake Task**)
+* Heroku **Worker** == Catalyze **Worker**
 * Heroku has one repository per app. Catalyze has one repository **per code service**.
     * This means that workers are started out of the service (using its environment variables) - you do not need to add a code service for each worker. They're added to the `Procfile`, just like heroku.
     * Currently, Catalyze does not officially support having multiple code services in an app. Things may behave strangely if you try to create a second.
@@ -56,5 +56,3 @@ See [here](https://devcenter.heroku.com/articles/development-configuration#depen
 
 ### Stateless applications
 Twelve-factor processes are stateless and share-nothing. Any data that needs to persist must be stored in a stateful backing service, typically a database. If the application is stateless (which it will be if the above three principles are implemented), then your application can be managed, deployed, backed up, restored without any complications and at speed.
-
-
