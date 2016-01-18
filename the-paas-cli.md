@@ -13,7 +13,7 @@ To use the CLI, it is assumed that you've already got an environment provisioned
 ## Installing
 Follow the instructions at [https://github.com/catalyzeio/cli](https://github.com/catalyzeio/cli).
 
-More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/cli/). The repo linked above is also open source so feel free to issue a pull request, suggest improvemennts or create issues as you use it.
+More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/paas-cli-reference/). The repo linked above is also open source so feel free to issue a pull request, suggest improvemennts or create issues as you use it.
 
 <!--## Associating a local repository with a provisioned environment
 
