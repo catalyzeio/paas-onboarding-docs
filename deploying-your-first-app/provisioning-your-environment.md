@@ -21,23 +21,23 @@ Public IP: {{ip_address}} The environment is setup for you to add a DNS record f
 We have configured a temporary URL for you to use: {{temp_url}} e.g. https://podxxx.catalyze.io
 
 Through the temporary URL, you will have access to a
-- logging server: {{temp_url}}/logging/ 
+- logging server: {{temp_url}}/logging/
 - monitoring server: {{temp_url}}/monitoring/
 
 To access these endpoints you will be prompted for a username and password. Enter your Dashboard credentials to gain access.
 
-The endpoint connection information for the resources your application will consume is available in the environment variables for your environment.  You can view your environment variables in the Catalyze Dashboard or with the catalyze-paas-cli client program with the command:  `catalyze vars list`
+The endpoint connection information for the resources your application will consume is available in the environment variables for your environment.  You can view your environment variables in the Catalyze Dashboard or with the catalyze cli client program with the command:  `catalyze vars list`
 
-You can download the CLI here - https://github.com/catalyzeio/catalyze-paas-cli. All associated install instructions are also available in the repo.
+You can download the CLI here - https://github.com/catalyzeio/cli. All associated install instructions are also available in the repo.
 
-Lastly, the Git repo has been setup for your environment: {{git_url}}. 
+Lastly, the Git repo has been setup for your environment: {{git_url}}.
 
-You can add a remote and begin pushing to the master branch. The command to use would look like this - 
+You can add a remote and begin pushing to the master branch. The command to use would look like this -
 `git push catalyze yourbranch:master`
 
 You need to replace “yourbranch” with the correct location and name of your repo. Once you have pushed code there and the build succeeds, send me a note and I will deploy the service. After the initial deploy, “git push” using the same command as above, will automatically redeploy the app.
 
-Please let us know if you have any issues getting set up and going with your new environment. You can get our attention by emailing support@catalyze.io. 
+Please let us know if you have any issues getting set up and going with your new environment. You can get our attention by emailing support@catalyze.io.
 
 Detailed onboarding documents and a getting started guide are available here - https://resources.catalyze.io/paas/getting-started
 

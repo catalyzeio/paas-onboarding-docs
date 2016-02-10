@@ -9,7 +9,7 @@ title: Deploying the app
 > — Willy Wonka
 
 
-At this point you'll switch over to the CLI. Be sure you've installed the CLI ([instructions here](https://github.com/catalyzeio/catalyze-paas-cli/blob/master/README.md)). 
+At this point you'll switch over to the CLI. Be sure you've installed the CLI ([instructions here](https://github.com/catalyzeio/cli/blob/master/README.md)).
 
 Using your terminal navigate to your application's code layer (i.e. if you're building a rails app you'll want to be in your root directory where `.git` is typically located). You need to associate your local repository with your Catalyze environment name
 
@@ -17,7 +17,7 @@ Using your terminal navigate to your application's code layer (i.e. if you're bu
 catalyze associate your_env_name
 ```
 
-Replace *your_env_name* in the example above with the environment name that is in your dashboard. Now push your code to Catalyze. 
+Replace *your_env_name* in the example above with the environment name that is in your dashboard. Now push your code to Catalyze.
 
 ```
 $ git push catalyze master
