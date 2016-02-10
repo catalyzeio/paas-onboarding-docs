@@ -1,7 +1,7 @@
 ---
-title: The PaaS CLI
+title: The Catalyze CLI
 ---
-# The PaaS CLI
+# The Catalyze CLI
 
 > I can't abide that contraption attached to the computer which must be gripped to navigate a cursor round a computer screen, a move which necessitates removing one's hands from the keyboard and removing it to a misshapen blob, interrupting the flow of work.
 
@@ -13,12 +13,12 @@ To use the CLI, it is assumed that you've already got an environment provisioned
 ## Installing
 Follow the instructions at [https://github.com/catalyzeio/cli](https://github.com/catalyzeio/cli).
 
-More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/paas-cli-reference/). The repo linked above is also open source so feel free to issue a pull request, suggest improvemennts or create issues as you use it.
+More details and the sets of commands supported are available [here](https://resources.catalyze.io/paas/paas-cli-reference/). The repository linked above is also open source so feel free to issue a pull request, suggest improvements, or create issues as you use it.
 
 <!--## Associating a local repository with a provisioned environment
 
 1. `cd` into the project directory (the one that contains the `.git` directory).
-2. `catalyze associate <environment>`, substituting `<environment>` for the name of the environment you had provisioned.
+2. `catalyze associate <environment> <service_name>`, substituting `<environment>` for the name of the environment you had provisioned and <service> for the name of a code service in the environment.
     * This will ask you for a set of credentials. These are the same credentials you use on the dashboard.
     * Your environment name is listed in the dashboard. If you're not sure, run `catalyze environments` - this will list all environments to which you have access.
 3. You should now have a git remote named `catalyze`. To verify: `git remote -v`
