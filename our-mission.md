@@ -16,10 +16,10 @@ Security and compliance are at the core of what we provide. So everything that w
 Compliance with regulations is challenging. It is our responsibility to stay abreast of these regulations and implement them as much as possible into our offerings. Policies put into place internally at Catalyze are of the of the utmost **importance**. These policies exist for a reason and we intend to strictly adhere to them. Beyond the importance of these policies to our customers they are essential for the continuity of our business.
 
 ### Parity with "mainstream" software development
-Platforms like Heroku and Parse have revolutionized consumer facing software development. It is Catalyze's intention and mission to bring that same revolution to the healthcare software development industry.
+Platforms like Heroku have revolutionized consumer facing software development. It is Catalyze's intention and mission to bring that same revolution to the healthcare software development industry.
 
 ### Rival Heroku in ease of use and reliability
-They are the gold standard for Platform as Service at scale. We should plan to match and exceed their capabilities at every level.
+Heroku is the gold standard for Platform as a Service at scale. We should plan to match and exceed their capabilities at every level.
 
 ### Customer service is paramount
 We wouldn't exist without our customers. We will strive to provide the best customer service possible. We will be transparent if we make mistakes. We will work to rectify them immediately. All we ask from our customers is trust (which we will work to earn) and a little bit of patience (we are a startup after all). Our ultimate goal is to revolutionize the healthcare industry. We hope you'll join us along the way.
